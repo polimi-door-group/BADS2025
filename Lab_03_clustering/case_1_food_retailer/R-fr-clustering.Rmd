@@ -1,0 +1,144 @@
+---
+title: 'Clustering: Food Retailer'
+---
+
+```{r}
+library('cluster')
+library('dbscan')
+library('ggplot2')
+library('factoextra')
+```
+
+Read the data (fr_data_final.csv or from GUI)
+
+```{r}
+fr_data_final <- read.csv(file = 'fr_data_final.csv')
+ds<-fr_data_final
+attach(ds)
+```
+
+Select the number of clusters based on:
+
+1)  The sum of squared distances (SSE)
+
+```{r}
+kmax <- 10
+res <- c()
+for(i in 2:kmax){
+  res <- c(res,kmeans(ds,i,iter.max=300,nstart=30)$tot.withinss) # tot.withinss = SSE
+  }
+plot(2:kmax,res,type="b",pch=19,frame=FALSE,xlab="Number of clusters K",ylab="Sum of Squared Distances (SSE)",ylim=c(0,300))
+abline(v=2,lty=2)
+abline(v=6,lty=2)
+```
+
+2)  The percentage of variance explained
+
+```{r}
+kmax <- 10
+res <- c()
+for(i in 2:kmax){
+  # betweenss = the between-cluster sum of squares = totss-SSE
+  res <- c(res,kmeans(ds,i,iter.max=300,nstart=30)$betweenss/kmeans(ds,i,iter.max=300,nstart=30)$totss) 
+}
+plot(2:kmax,res,type="b",pch=19,frame=FALSE,xlab="Number of clusters K",ylab="Total variance explained",ylim=c(0,1))
+abline(v=2,lty=2)
+abline(v=6,lty=2)
+```
+
+3)  The silhouette coefficient
+
+```{r}
+kmax <- 10
+res <- c()
+for(i in 2:kmax){
+  ss <- silhouette(kmeans(ds,i,iter.max=300,nstart=30)$cluster,dist(ds))
+  res <- c(res,mean(ss[, 3]))
+}
+plot(2:kmax,res,type="b",pch=19,frame=FALSE,xlab="Number of clusters K",ylab="Average silhouette coefficient",ylim=c(0,0.6))
+abline(v=4,lty=3)
+```
+
+------------------------------------------------------------------------
+
+K-MEANS ALGORITHM \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+Build the model. To account for different initial seeds selection we try 30 different random starting assignments (nstart=30) and select the one with the lowest SSE.
+
+```{r}
+kmm <- kmeans(ds,3,iter.max=100,nstart=30)
+kmm
+```
+
+Combine the original dataset and the clustering model.
+
+```{r}
+cluster_labels <- kmm$cluster
+dsnew <- cbind(ds,cluster_labels)
+```
+
+------------------------------------------------------------------------
+
+K-MEDOIDS ALGORITHM (PAM) \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+Build the model.
+
+```{r}
+pamm <- pam(ds,3,diss=FALSE,metric="euclidean") # "manhattan"
+pamm
+```
+
+Combine the original dataset and the clustering model.
+
+```{r}
+cluster_labels <- pamm$clustering
+dsnew <- cbind(ds,cluster_labels)
+```
+
+------------------------------------------------------------------------
+
+AGGLOMERATIVE HIERARCHICAL CLUSTERING \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+Build and visualize the model.
+
+```{r}
+distds <- dist(ds,method="euclidean")
+hc <- hclust(distds,method="ward.D") #"ward.D", "ward.D2", "single", "complete", "average", etc.
+plot(hc,labels=FALSE,hang=-1)
+hc.cut <- cutree(hc,k=5)
+```
+
+Visualize the final model.
+
+```{r}
+plot(hc,labels=FALSE,hang=-1)
+rect.hclust(hc,k=5)
+```
+
+Combine the original dataset and the clustering model.
+
+```{r}
+dsnew <- cbind(ds,hc.cut)
+```
+
+visualize the clustered dendogram (heatmap)
+
+```{r}
+library("pheatmap")
+sample = fr_data_final[sample(nrow(fr_data_final), 30),]
+pheatmap(sample,cutree_rows = 20, main="Clustered Dendogram", show_rownames=FALSE,cellwidth=30)
+```
+
+------------------------------------------------------------------------
+
+DENSITY-BASED CLUSTERING -\> DBSCAN ALGORITHM \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+Build the model.
+
+```{r}
+kNNdistplot(ds,k=5)
+dbs <- dbscan(ds,eps=0.35,minPts=5)
+dbs$cluster
+unique(dbs$cluster)
+dbs
+```

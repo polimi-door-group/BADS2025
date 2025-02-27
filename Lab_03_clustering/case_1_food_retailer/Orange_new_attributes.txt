@@ -1,1 +1,11 @@
 
+***Create AssortmentExtDegree 
+1 if AssortmentExt == 'Very low' else 2 if AssortmentExt == 'Low' else 3 if AssortmentExt == 'Indifferent' else 4 if AssortmentExt == 'High' else 5
+
+***Overall_Spending attribute
+Fresh+MeatAndFish+Wine+Frozen+PersonalCare+Deli
+
+***Category Spending over Overall Spendi
+Fresh/Overall_Spending
+Wine/Overall_Spending
+MeatAndFish/Overall_Spending
