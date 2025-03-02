@@ -1,0 +1,138 @@
+---
+title: 'Clustering: Airplane Crashes'
+output:
+  html_document:
+    df_print: paged
+---
+
+Load the required libraries
+
+```{r}
+library('tm')
+library('proxy')
+library('ggplot2')
+library('wordcloud')
+```
+
+Read the data
+
+```{r}
+ac_data <- read.csv(file = 'ac_data.csv')
+ds<-ac_data
+```
+
+Remove the rows with missing Summary details
+
+```{r}
+ds = subset(ds, Summary!="")
+```
+
+Load text as corpus
+
+```{r}
+report <- VCorpus(VectorSource(ds$Summary))
+report[[7]]$content
+```
+
+Text cleaning: 1) Remove punctuation and numbers
+
+```{r}
+report <- tm_map(report,removePunctuation)
+report <- tm_map(report,removeNumbers)
+report[[7]]$content
+```
+
+2)  Convert to lowercase
+
+```{r}
+report <- tm_map(report,content_transformer(tolower))
+report[[7]]$content
+```
+
+3)  Remove stopwords and strip unnecesary whitespace:
+
+```{r}
+report <- tm_map(report, removeWords, stopwords("english"))
+report <- tm_map(report, stripWhitespace)
+report[[7]]$content
+```
+
+Lemmatize (use coreNLP)...and then import texts after lemmatization
+
+```{r}
+report_lemma <- read.csv(file = 'report_lemma.csv')
+report <- report_lemma
+report <- VCorpus(VectorSource(report$Summary))
+```
+
+Create the document-terms matrix
+
+```{r}
+dtm <- DocumentTermMatrix(report)
+dtmmtx <- as.matrix(dtm)
+```
+
+Look at the most frequent terms
+
+```{r}
+freq <- colSums(as.matrix(dtm)) 
+wf <- data.frame(word=names(freq),freq=freq)
+```
+
+Remove some of these terms
+
+```{r}
+dtm <- DocumentTermMatrix(report,control=list(stopwords=c("aircraft","plane","crash","crashed","caused","accident","one","two","cause","make","kill","result","continue","contribute","take","flight","right","due","lead","factor","minute","leave")))
+dtms <- removeSparseTerms(dtm, 0.96)
+freq <- colSums(as.matrix(dtms)) 
+wf <- data.frame(word=names(freq),freq=freq)
+```
+
+Display the remaining terms according to their frequencies
+
+```{r}
+p <- ggplot(subset(wf),aes(word, freq))    
+p <- p + geom_bar(stat="identity")   
+p <- p + theme(axis.text.x=element_text(angle=45, hjust=1))   
+p
+```
+
+Display the clouds of words
+
+```{r fig.height=7, fig.width=7}
+wordcloud(names(freq),freq,scale=c(5,0.1),colors=brewer.pal(6,"Dark2")) 
+```
+
+------------------------------------------------------------------------
+
+CLUSTERING USING TERMS CO-OCCURRENCES\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+Compute the distance matrix
+
+```{r}
+dtms[dtms > 1] <- 1
+dtms <- as.matrix(dtms)
+d <- dist(t(dtms), method = "Jaccard")
+```
+
+Build the model via agglomerative clustering
+
+```{r}
+hc <- hclust(d,method="ward.D")
+```
+
+Visualize clusters by cutting on 12 groups
+
+```{r}
+plot(hc,hang=-1)
+rect.hclust(hc,k=12,border=2:4)
+```
+
+```{r}
+A<-findAssocs(dtm,"crew",corlimit=0.1)
+A<-unlist(A)
+A[1]
+A<-findAssocs(dtm,"landing",corlimit=0.1)
+A<-unlist(A)
+A[1]
+```

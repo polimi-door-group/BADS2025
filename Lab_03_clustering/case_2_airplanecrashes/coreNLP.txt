@@ -1,0 +1,10 @@
+
+CoreNLP library: https://stanfordnlp.github.io/CoreNLP/
+
+Lemmatization command:
+java -cp "*" -Xmx2g edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,ssplit,pos,lemma -file summary(your file to lemmatize).txt -outputFormat text -ssplit.eolonly true
+
+
+
+
+
