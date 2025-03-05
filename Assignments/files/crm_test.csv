@@ -1,0 +1,631 @@
+ID_CRM,Poverty_Code,Region,CRM_Segment,School_Type,Parent_Meeting_Flag,MDR_Low_Grade,MDR_High_Grade,Total_School_Enrollment,Income_Level,SPR_New_Existing,NumberOfMeetingswithParents,FirstMeeting,LastMeeting,DifferenceTraveltoFirstMeeting,DifferenceTraveltoLastMeeting,SchoolGradeTypeLow,SchoolGradeTypeHigh,SchoolGradeType,SchoolSizeIndicator
+01005P,0,Southern California,4,CHD,0,PK,6,315,P,1,0,,,,,Elementary,Elementary,Elementary->Elementary,S
+01040K,0,Other,5,CHD,1,6,12,541,K,1,1,09/10/2018,09/03/2018,141,148,Middle,Middle,Middle->Middle,S-M
+010960,0,Other,7,PUBLIC,1,0,NA,0,0,0,1,09/04/2018,09/07/2018,255,252,Middle,Middle,Middle->Middle,
+01108I,0,Other,11,Catholic,1,PK,8,351,I,0,2,05/16/2018,09/06/2018,375,262,Middle,Middle,Middle->Middle,S-M
+01114Q,0,Southern California,4,Private non-Christian,1,PK,6,82,Q,1,1,10/20/2018,10/09/2018,201,212,Elementary,Elementary,Elementary->Elementary,S
+01132O,0,Northern California,4,CHD,1,K,6,202,O,0,2,09/03/2018,09/14/2018,224,213,Middle,Middle,Middle->Middle,S
+011450,0,Northern California,7,PUBLIC,0,0,NA,0,0,0,0,,,,,High,High,High->High,
+01173L,0,Other,1,Private non-Christian,1,K,8,153,L,1,1,10/01/2018,10/06/2018,186,181,Middle,Middle,Middle->Middle,S
+01178O,0,Other,9,CHD,1,PK,12,864,O,1,1,10/06/2018,09/24/2018,171,183,Middle,Middle,Middle->Middle,M-L
+011860,0,Other,7,CHD,1,0,NA,0,0,0,1,09/09/2018,09/10/2018,271,270,Middle,Middle,Middle->Middle,
+01220,0,Southern California,7,PUBLIC,1,0,NA,0,0,0,1,09/08/2018,09/08/2018,220,220,Middle,Middle,Middle->Middle,
+01237I,0,Other,9,Catholic,1,PK,8,291,I,0,1,05/12/2018,05/18/2018,332,326,Middle,Middle,Middle->Middle,S
+01312Q,0,Northern California,5,Private non-Christian,0,PK,8,398,Q,1,0,,,,,Middle,Middle,Middle->Middle,S-M
+01328J,0,Pacific Northwest,5,Private non-Christian,0,K,12,431,J,1,0,,,,,Middle,High,Middle->High,S-M
+01391L,0,Northern California,11,CHD,1,K,6,151,L,1,1,08/23/2018,09/07/2018,224,209,Middle,Middle,Middle->Middle,S
+01408P,0,Southern California,8,Private non-Christian,1,PK,8,110,P,0,1,09/20/2018,09/20/2018,219,219,Middle,Middle,Middle->Middle,S
+01422I,0,Other,10,CHD,1,PK,12,970,I,0,1,08/05/2018,08/18/2018,281,268,Middle,Middle,Middle->Middle,L
+01433N,0,Other,5,CHD,1,7,12,309,N,0,1,09/26/2018,09/30/2018,212,208,High,High,High->High,S
+01434P,0,Other,4,Private non-Christian,0,PK,8,365,P,1,0,,,,,Middle,Middle,Middle->Middle,S-M
+01476P,0,Northern California,5,Private non-Christian,1,K,8,385,P,1,1,08/30/2018,09/07/2018,244,236,Middle,Middle,Middle->Middle,S-M
+01480G,0,Other,11,CHD,1,PK,8,309,G,1,1,09/03/2018,09/14/2018,205,194,Middle,Middle,Middle->Middle,S
+01489O,0,Pacific Northwest,1,Private non-Christian,1,PK,8,120,O,1,2,11/25/2018,11/20/2018,179,184,Middle,Middle,Middle->Middle,S
+01525N,0,Southern California,8,CHD,1,9,12,557,N,0,1,10/06/2018,09/21/2018,209,224,Middle,Middle,Middle->Middle,M-L
+01539O,0,Northern California,5,Catholic,1,K,8,301,O,1,2,03/05/2018,09/04/2018,411,228,Middle,Middle,Middle->Middle,S
+01590F,0,Other,11,Private non-Christian,0,PK,8,174,F,0,0,,,,,Middle,Middle,Middle->Middle,S
+01605O,0,Other,9,Catholic,1,PK,8,551,O,1,1,09/27/2018,09/20/2018,249,256,Middle,Middle,Middle->Middle,S-M
+01616K,0,Southern California,4,Private non-Christian,1,1,8,475,K,1,1,09/15/2018,09/20/2018,225,220,Elementary,Elementary,Elementary->Elementary,S-M
+01635P,0,Northern California,5,Private non-Christian,1,PK,8,321,P,1,1,09/06/2018,09/03/2018,248,251,Middle,Middle,Middle->Middle,S
+0166N,0,Other,11,Catholic,1,PK,8,219,N,0,1,01/23/2018,01/27/2018,400,396,Middle,Middle,Middle->Middle,S
+01673P,0,Northern California,10,Catholic,1,PK,8,214,P,0,1,09/07/2018,09/10/2018,203,200,Middle,Middle,Middle->Middle,S
+01680,0,Other,7,CHD,1,0,NA,0,0,1,1,10/09/2018,10/22/2018,175,162,Middle,Middle,Middle->Middle,
+01700K,0,Southern California,10,Catholic,1,PK,8,152,K,0,2,05/05/2018,09/29/2018,349,202,Middle,Middle,Middle->Middle,S
+01722P,0,Other,4,Private non-Christian,0,PK,8,360,P,0,0,,,,,Middle,Middle,Middle->Middle,S-M
+017860,0,Other,6,CHD,1,0,NA,0,0,1,2,09/17/2018,05/20/2019,232,-13,Middle,Middle,Middle->Middle,
+01798Z,0,Southern California,5,CHD,0,7,12,721,Z,0,0,,,,,Middle,Middle,Middle->Middle,M-L
+01822P,0,Northern California,5,Catholic,1,PK,8,477,P,0,1,09/19/2018,09/23/2018,276,272,Middle,Middle,Middle->Middle,S-M
+0183N,0,Northern California,5,Catholic,1,K,8,341,N,0,1,04/05/2018,04/20/2018,383,368,Middle,Middle,Middle->Middle,S
+0184Z,0,Southern California,5,Private non-Christian,0,PK,8,215,Z,0,0,,,,,Middle,Middle,Middle->Middle,S
+01859P,0,Southern California,5,Catholic,1,PK,8,342,P,1,1,09/20/2018,09/22/2018,233,231,Elementary,Elementary,Elementary->Elementary,S-M
+01939A,0,Dallas,4,CHD,1,PK,6,175,A,0,1,08/16/2018,08/13/2018,207,210,Middle,Middle,Middle->Middle,S
+01999L,0,Southern California,9,Catholic,1,K,8,180,L,1,1,07/31/2018,07/16/2018,264,279,Middle,Middle,Middle->Middle,S
+019P,0,Southern California,5,CHD,1,PK,8,238,P,1,1,10/06/2018,09/27/2018,222,231,Middle,Middle,Middle->Middle,S
+02011K,0,Houston,10,CHD,1,7,12,213,K,0,2,05/03/2018,09/24/2018,370,226,Middle,Middle,Middle->Middle,S
+02041P,0,Other,5,Catholic,1,PK,7,683,P,1,1,09/12/2018,08/30/2018,241,254,Middle,Middle,Middle->Middle,M-L
+02105L,0,Other,7,Private non-Christian,1,PK,12,1009,L,1,1,02/08/2019,02/21/2019,29,16,High,High,High->High,L
+0211J,0,Pacific Northwest,5,CHD,1,K,12,772,J,1,1,09/25/2018,09/28/2018,262,259,Middle,Middle,Middle->Middle,M-L
+02133D,0,Other,4,Private non-Christian,1,PK,8,527,D,0,1,09/28/2018,09/16/2018,182,194,Middle,Middle,Middle->Middle,S-M
+0214H,0,Pacific Northwest,5,CHD,1,PK,12,563,H,0,1,04/03/2018,04/04/2018,364,363,Middle,High,Middle->High,S-M
+02161N,0,Southern California,3,Private non-Christian,1,K,12,191,N,1,2,04/28/2018,10/02/2018,361,204,High,High,High->High,S
+02163F,0,Northern California,1,Catholic,1,PK,8,116,F,1,1,10/16/2018,10/11/2018,244,249,Middle,Middle,Middle->Middle,S
+02190P,0,Southern California,5,CHD,1,PK,8,470,P,1,1,09/11/2018,09/10/2018,229,230,Middle,Middle,Middle->Middle,S-M
+02203L,0,Southern California,11,Catholic,1,K,8,157,L,0,1,09/16/2018,08/27/2018,238,258,Elementary,Elementary,Elementary->Elementary,S
+022100,0,Other,6,PUBLIC,0,0,NA,0,0,1,0,,,,,High,High,High->High,
+02237Z,0,Other,9,Catholic,1,7,12,205,Z,1,1,10/08/2018,10/25/2018,228,211,High,High,High->High,S
+022910,0,Southern California,3,PUBLIC,0,0,NA,0,0,1,0,,,,,Middle,Middle,Middle->Middle,
+0234C,0,Other,5,CHD,1,PK,8,322,C,0,1,08/30/2018,08/29/2018,220,221,Middle,Middle,Middle->Middle,S-M
+02362P,0,Other,2,Catholic,1,K,8,468,P,1,1,09/08/2018,09/06/2018,258,260,Middle,Middle,Middle->Middle,S-M
+02369P,0,Northern California,5,CHD,1,PK,8,264,P,0,2,05/13/2018,09/23/2018,323,190,Middle,Middle,Middle->Middle,S
+02372P,0,Other,5,Private non-Christian,1,PK,8,655,P,0,1,09/27/2018,09/24/2018,199,202,Middle,Middle,Middle->Middle,M-L
+02379P,0,Southern California,5,Catholic,1,PK,8,361,P,0,1,09/18/2018,09/05/2018,219,232,Middle,Middle,Middle->Middle,S-M
+0237P,0,Southern California,10,CHD,1,PK,8,230,P,0,1,09/12/2018,09/11/2018,196,197,Middle,Middle,Middle->Middle,S
+02476K,0,Other,5,Catholic,1,PK,8,524,K,1,2,05/28/2018,09/23/2018,288,170,Middle,Middle,Middle->Middle,S-M
+02560,0,Other,7,CHD,1,0,NA,0,0,1,1,10/23/2018,10/14/2018,165,174,Middle,Middle,Middle->Middle,
+025620,0,Dallas,7,PUBLIC,1,0,NA,0,0,0,1,10/09/2018,10/26/2018,233,216,Middle,Middle,Middle->Middle,
+02565O,0,Southern California,5,Catholic,1,K,8,581,O,1,1,09/15/2018,09/22/2018,212,205,Middle,Middle,Middle->Middle,S-M
+025760,0,Other,9,CHD,1,0,NA,0,0,0,1,11/07/2018,10/26/2018,171,183,Undefined,Undefined,Undefined->Undefined,
+02582P,0,Other,2,CHD,0,PK,12,913,P,0,0,,,,,Middle,Middle,Middle->Middle,L
+02714C,0,Southern California,8,Private non-Christian,0,7,12,511,C,0,0,,,,,Middle,High,Middle->High,S-M
+02787Q,0,Northern California,10,CHD,1,PK,8,175,Q,1,1,09/08/2018,09/01/2018,233,240,Middle,Middle,Middle->Middle,S
+02815O,0,Southern California,5,CHD,1,K,8,0,O,1,1,09/28/2018,09/29/2018,195,194,Middle,Middle,Middle->Middle,
+02824J,0,Southern California,5,Private non-Christian,1,7,12,670,J,1,1,08/29/2018,09/18/2018,246,226,Middle,Middle,Middle->Middle,M-L
+02827L,0,Pacific Northwest,5,Catholic,0,PK,8,360,L,0,0,,,,,Middle,Middle,Middle->Middle,S-M
+02877I,0,Northern California,5,Catholic,1,K,8,256,I,1,2,05/12/2018,10/18/2018,383,224,Middle,Middle,Middle->Middle,S
+02885I,0,Pacific Northwest,4,Private non-Christian,1,PK,6,53,I,1,1,10/19/2018,10/09/2018,149,159,Elementary,Middle,Elementary->Middle,S
+02900J,0,Other,9,Catholic,0,K,8,505,J,0,0,,,,,Middle,Middle,Middle->Middle,S-M
+0297O,0,Northern California,5,Private non-Christian,1,K,8,237,O,0,1,09/17/2018,09/11/2018,246,252,Middle,Middle,Middle->Middle,S
+03011J,0,Southern California,5,Catholic,1,PK,8,287,J,0,2,06/09/2018,09/18/2018,304,203,Elementary,Elementary,Elementary->Elementary,S
+03043J,0,Pacific Northwest,5,CHD,1,K,12,719,J,0,1,09/27/2018,09/13/2018,257,271,Middle,Middle,Middle->Middle,M-L
+03053Q,0,Southern California,10,Private non-Christian,1,PK,8,174,Q,1,1,10/11/2018,09/30/2018,232,243,Middle,Middle,Middle->Middle,S
+03055Q,0,Southern California,4,Private non-Christian,0,PK,7,213,Q,0,0,,,,,Elementary,Elementary,Elementary->Elementary,S
+03187P,0,Other,5,Catholic,1,PK,8,460,P,0,2,02/20/2018,09/20/2018,431,219,Middle,Middle,Middle->Middle,S-M
+032350,0,Southern California,7,PUBLIC,1,0,NA,0,0,1,1,09/01/2018,09/06/2018,237,232,Middle,Middle,Middle->Middle,
+03248E,0,Other,9,Catholic,1,PK,8,226,E,1,1,09/09/2018,09/06/2018,184,187,Middle,Middle,Middle->Middle,S
+03289E,0,Dallas,11,Catholic,1,PK,8,334,E,0,2,05/16/2018,10/04/2018,382,241,Middle,Middle,Middle->Middle,S-M
+03304L,0,Southern California,5,Private non-Christian,0,K,12,551,L,1,0,,,,,Middle,Middle,Middle->Middle,S-M
+03377L,0,Southern California,5,CHD,0,PK,8,537,L,1,0,,,,,Undefined,Undefined,Undefined->Undefined,S-M
+03414H,0,Other,1,CHD,1,PK,12,309,H,1,1,11/01/2018,10/15/2018,155,172,Middle,Middle,Middle->Middle,S
+03435P,0,Other,2,CHD,0,PK,8,818,P,1,0,,,,,Middle,Middle,Middle->Middle,M-L
+03448L,0,Pacific Northwest,10,Catholic,1,K,8,230,L,1,2,04/22/2018,10/17/2018,361,183,Middle,Middle,Middle->Middle,S
+034580,0,Other,,CHD,1,0,NA,0,0,0,1,11/23/2018,11/21/2018,175,177,Undefined,Undefined,Undefined->Undefined,
+03484J,0,Other,1,CHD,1,K,8,91,J,1,1,08/29/2018,08/30/2018,260,259,Middle,Middle,Middle->Middle,S
+03506P,0,Other,2,Private non-Christian,0,PK,9,312,P,1,0,,,,,Middle,Middle,Middle->Middle,S
+03593Q,0,Other,10,CHD,0,K,8,343,Q,0,0,,,,,Middle,High,Middle->High,S
+03666M,0,Southern California,5,Private non-Christian,1,PK,8,451,M,0,1,09/20/2018,09/08/2018,255,267,Elementary,Elementary,Elementary->Elementary,S-M
+03674J,0,Other,9,CHD,1,PK,12,291,J,1,1,08/27/2018,08/28/2018,205,204,Middle,Middle,Middle->Middle,S
+03692L,0,Other,5,Private non-Christian,1,K,12,1420,L,1,1,08/28/2018,09/01/2018,203,199,Middle,Middle,Middle->Middle,L
+0372P,0,Southern California,4,CHD,1,K,8,186,P,0,2,05/06/2018,10/09/2018,387,231,Middle,Middle,Middle->Middle,S
+03730Q,0,Northern California,11,Private non-Christian,0,6,8,165,Q,0,0,,,,,Elementary,Elementary,Elementary->Elementary,S
+03785P,0,Other,7,Private non-Christian,0,PK,12,765,P,1,0,,,,,Undefined,Undefined,Undefined->Undefined,M-L
+03884P,0,Other,1,CHD,1,PK,8,111,P,0,1,09/12/2018,09/26/2018,210,196,Middle,Middle,Middle->Middle,S
+03910O,0,Other,5,PUBLIC,1,PK,12,0,O,0,1,09/21/2018,09/10/2018,190,201,Middle,Middle,Middle->Middle,
+03951B,0,Other,10,Catholic,1,PK,8,194,B,1,2,04/05/2018,09/21/2018,425,256,Middle,Middle,Middle->Middle,S
+03970J,0,Other,4,CHD,1,PK,5,650,J,0,1,10/10/2018,10/12/2018,173,171,Middle,Middle,Middle->Middle,M-L
+03984Q,0,Northern California,5,Private non-Christian,1,K,8,243,Q,1,1,09/13/2018,09/28/2018,260,245,Middle,Middle,Middle->Middle,S
+03994J,0,Other,1,Catholic,1,PK,8,162,J,0,1,09/12/2018,09/08/2018,221,225,Middle,Middle,Middle->Middle,S
+040000,0,Southern California,,CHD,0,0,NA,0,0,1,0,,,,,Undefined,Undefined,Undefined->Undefined,
+040170,0,Southern California,,CHD,1,0,NA,0,0,1,1,09/11/2018,09/06/2018,287,292,Elementary,Elementary,Elementary->Elementary,
+04032M,0,Other,11,Private non-Christian,1,PK,8,220,M,1,1,09/20/2018,09/27/2018,237,230,Middle,Middle,Middle->Middle,S
+04051C,0,Dallas,11,CHD,1,PK,12,318,C,0,1,04/17/2018,04/24/2018,332,325,Middle,High,Middle->High,S
+04065J,0,Pacific Northwest,10,CHD,1,PK,8,135,J,0,1,08/29/2018,09/07/2018,289,280,Middle,Middle,Middle->Middle,S
+040780,0,Southern California,8,PUBLIC,1,0,NA,0,0,0,1,09/01/2018,09/12/2018,246,235,Middle,Middle,Middle->Middle,
+04150,0,Other,7,PUBLIC,1,0,NA,0,0,1,1,09/18/2018,09/05/2018,260,273,Middle,High,Middle->High,
+04201P,0,Houston,10,Catholic,1,PK,8,228,P,0,1,09/07/2018,09/06/2018,193,194,Middle,Middle,Middle->Middle,S
+042O,0,Other,9,Catholic,1,PK,8,261,O,1,1,10/18/2018,10/18/2018,155,155,Middle,Middle,Middle->Middle,S
+04356O,0,Other,5,Catholic,1,PK,8,422,O,0,2,05/22/2018,09/04/2018,318,213,Middle,Middle,Middle->Middle,S-M
+043850,0,Southern California,,CHD,1,0,NA,0,0,1,1,09/25/2018,09/29/2018,241,237,Elementary,Elementary,Elementary->Elementary,
+04389J,0,Northern California,1,Catholic,1,K,8,125,J,1,2,05/30/2018,09/06/2018,319,220,Middle,Middle,Middle->Middle,S
+04390C,0,Other,5,Catholic,1,K,8,545,C,0,2,04/24/2018,09/03/2018,394,262,Middle,Undefined,Middle->Undefined,S-M
+04405J,0,Other,10,CHD,1,PK,8,257,J,0,2,03/15/2018,10/18/2018,440,223,Middle,Middle,Middle->Middle,S
+04443I,0,Other,5,CHD,1,PK,12,1502,I,0,2,02/11/2018,09/12/2018,396,183,Middle,Middle,Middle->Middle,L
+04449P,0,Southern California,4,Private non-Christian,0,PK,6,341,P,1,0,,,,,Middle,Middle,Middle->Middle,S-M
+04546Q,0,Other,9,Private non-Christian,1,K,8,829,Q,0,1,08/17/2018,08/24/2018,293,286,Middle,Middle,Middle->Middle,L
+04600I,0,Other,11,Catholic,1,PK,8,256,I,1,1,05/15/2018,05/12/2018,326,329,Middle,Middle,Middle->Middle,S
+04602H,0,Other,5,CHD,1,PK,8,401,H,1,1,08/28/2018,08/15/2018,182,195,Middle,Middle,Middle->Middle,S-M
+04622O,0,Southern California,5,Catholic,1,K,8,650,O,0,2,06/16/2018,08/28/2018,345,272,Middle,Middle,Middle->Middle,M-L
+04637D,0,Other,1,CHD,0,PK,8,56,D,0,0,,,,,Middle,Middle,Middle->Middle,S
+04640Q,0,Northern California,5,Catholic,1,K,8,325,Q,0,1,09/05/2018,09/10/2018,275,270,Middle,Middle,Middle->Middle,S
+04655Z,0,Other,10,CHD,1,PK,12,576,Z,0,2,05/27/2018,09/01/2018,281,184,Middle,Middle,Middle->Middle,S-M
+0469Q,0,Northern California,5,Private non-Christian,0,6,12,382,Q,1,0,,,,,Middle,Middle,Middle->Middle,S-M
+04705Q,0,Northern California,5,Private non-Christian,1,6,8,163,Q,0,1,09/03/2018,09/11/2018,202,194,Middle,Middle,Middle->Middle,S
+04706I,0,Other,1,Catholic,1,K,8,53,I,1,2,04/24/2018,08/21/2018,370,251,Middle,Middle,Middle->Middle,S
+04707O,0,Other,10,CHD,1,PK,12,871,O,0,1,09/24/2018,09/21/2018,183,186,High,High,High->High,L
+0470B,0,Other,10,Catholic,1,PK,8,209,B,0,2,04/01/2018,09/08/2018,437,277,Middle,Middle,Middle->Middle,S
+047230,0,Other,7,PUBLIC,1,0,NA,0,0,0,1,09/03/2018,09/13/2018,259,249,Middle,Middle,Middle->Middle,
+04734N,0,Other,4,CHD,1,K,8,521,N,1,1,09/04/2018,09/09/2018,282,277,Middle,Middle,Middle->Middle,S-M
+04771Q,0,Southern California,5,Private non-Christian,1,K,8,416,Q,1,1,09/11/2018,09/15/2018,211,207,Middle,Middle,Middle->Middle,S-M
+047920,0,Northern California,7,CHD,1,0,NA,0,0,1,2,05/22/2018,09/23/2018,312,188,Middle,Middle,Middle->Middle,
+04843P,0,Other,2,Catholic,1,K,8,499,P,0,1,09/03/2018,08/31/2018,264,267,Middle,Middle,Middle->Middle,S-M
+04929O,0,Other,4,Catholic,1,PK,5,236,O,0,1,09/16/2018,09/21/2018,241,236,Middle,Middle,Middle->Middle,S
+04978Q,0,Southern California,5,Private non-Christian,1,PK,8,976,Q,1,1,08/24/2018,08/26/2018,267,265,Middle,Middle,Middle->Middle,L
+04985J,0,Other,1,Catholic,1,PK,8,147,J,0,1,09/01/2018,09/01/2018,223,223,Middle,Middle,Middle->Middle,S
+05009L,0,Northern California,5,CHD,1,6,12,777,L,1,2,08/04/2018,09/20/2018,223,176,Middle,Middle,Middle->Middle,M-L
+0637M,0,Southern California,5,Private non-Christian,1,PK,8,494,M,1,1,09/05/2018,09/14/2018,269,260,Elementary,Elementary,Elementary->Elementary,S-M
+0702O,0,Other,2,CHD,0,K,9,410,O,1,0,,,,,Middle,Middle,Middle->Middle,S-M
+0720F,0,Other,10,Catholic,1,PK,8,504,F,1,1,09/07/2018,09/15/2018,210,202,Middle,Middle,Middle->Middle,S-M
+0749L,0,Other,5,Private non-Christian,0,K,12,4066,L,1,0,,,,,Middle,Middle,Middle->Middle,L
+0764M,0,Other,5,Private non-Christian,1,PK,12,638,M,1,1,09/14/2018,09/30/2018,254,238,Middle,Middle,Middle->Middle,M-L
+0773O,0,Southern California,5,CHD,1,K,8,492,O,0,1,09/28/2018,09/22/2018,215,221,Elementary,Elementary,Elementary->Elementary,S-M
+0785K,0,Northern California,5,Catholic,0,7,12,637,K,0,0,,,,,Middle,Middle,Middle->Middle,M-L
+0863M,0,Southern California,5,CHD,1,PK,12,500,M,0,1,09/03/2018,09/04/2018,201,200,Middle,Middle,Middle->Middle,S-M
+0879M,0,Southern California,11,CHD,1,PK,8,178,M,1,2,09/22/2018,10/05/2018,228,215,Elementary,Elementary,Elementary->Elementary,S
+0903O,0,Other,11,Catholic,1,PK,8,518,O,1,1,09/10/2018,09/21/2018,267,256,Middle,Middle,Middle->Middle,S-M
+0972M,0,Dallas,5,CHD,1,PK,12,1096,M,1,1,10/07/2018,10/05/2018,224,226,Middle,Middle,Middle->Middle,L
+A126Q,A,Other,6,PUBLIC,1,6,8,697,Q,0,1,09/15/2018,09/11/2018,231,235,Middle,Middle,Middle->Middle,M-L
+A1282P,A,Other,10,PUBLIC,1,6,8,754,P,1,1,09/25/2018,09/16/2018,173,182,Middle,Middle,Middle->Middle,M-L
+A1436P,A,Other,10,PUBLIC,1,6,8,2050,P,1,1,09/14/2018,09/23/2018,227,218,Middle,Middle,Middle->Middle,L
+A1468Q,A,Other,5,PUBLIC,1,6,8,715,Q,0,1,10/01/2018,09/30/2018,135,136,Undefined,Undefined,Undefined->Undefined,M-L
+A1519P,A,Other,5,PUBLIC,1,7,8,739,P,1,1,08/25/2018,08/18/2018,209,216,Middle,Middle,Middle->Middle,M-L
+A1542O,A,Other,5,PUBLIC,1,7,8,645,O,0,1,09/23/2018,09/23/2018,173,173,Middle,Middle,Middle->Middle,M-L
+A1628Q,A,Southern California,4,PUBLIC,1,K,5,573,Q,0,1,09/21/2018,09/28/2018,193,186,Elementary,Middle,Elementary->Middle,M-L
+A1679P,A,Other,10,PUBLIC,1,5,8,427,P,0,2,08/29/2018,09/15/2018,201,184,Undefined,Undefined,Undefined->Undefined,S-M
+A2046P,A,Other,9,PUBLIC,1,6,8,486,P,1,1,09/16/2018,09/14/2018,191,193,Middle,Middle,Middle->Middle,S-M
+A2066Q,A,Other,6,PUBLIC,1,7,12,3845,Q,1,1,09/13/2018,09/15/2018,212,210,Middle,Middle,Middle->Middle,L
+A2093Q,A,Northern California,5,PUBLIC,1,7,8,461,Q,0,1,08/30/2018,09/02/2018,215,212,Middle,Middle,Middle->Middle,S-M
+A2166L,A,Other,11,PUBLIC,1,5,8,338,L,1,2,05/18/2018,10/07/2018,380,238,Middle,Middle,Middle->Middle,S
+A2211Q,A,Northern California,5,PUBLIC,1,6,8,1139,Q,0,2,04/16/2018,09/22/2018,408,249,Middle,Middle,Middle->Middle,L
+A2262Q,A,Northern California,5,PUBLIC,1,6,8,905,Q,1,1,08/31/2018,08/23/2018,210,218,Middle,Middle,Middle->Middle,L
+A2343Q,A,Pacific Northwest,4,PUBLIC,1,K,6,619,Q,1,1,09/28/2018,09/28/2018,178,178,Elementary,Middle,Elementary->Middle,M-L
+A2685N,A,Other,5,PUBLIC,1,6,8,1534,N,1,1,09/05/2018,09/16/2018,252,241,Middle,Middle,Middle->Middle,L
+A2767P,A,Other,2,PUBLIC,0,6,8,1105,P,1,0,,,,,Middle,Middle,Middle->Middle,L
+A2816O,A,Other,5,PUBLIC,1,6,8,1247,O,1,1,01/19/2019,01/27/2019,42,34,Middle,Middle,Middle->Middle,L
+A2866N,A,Northern California,5,PUBLIC,0,7,8,771,N,0,0,,,,,Middle,Middle,Middle->Middle,L
+A2951O,A,Other,11,PUBLIC,1,7,8,346,O,0,1,10/18/2018,10/19/2018,239,238,Middle,Middle,Middle->Middle,S
+A2966P,A,Other,5,PUBLIC,1,6,8,825,P,0,1,09/10/2018,09/22/2018,260,248,Middle,Middle,Middle->Middle,M-L
+A2975Q,A,Northern California,5,PUBLIC,0,7,8,457,Q,0,0,,,,,Undefined,Undefined,Undefined->Undefined,S-M
+A3078Q,A,Other,7,PUBLIC,1,6,8,1049,Q,1,1,09/22/2018,10/04/2018,264,252,Middle,High,Middle->High,L
+A3083P,A,Northern California,5,PUBLIC,1,6,8,624,P,1,1,09/20/2018,09/11/2018,208,217,Middle,Middle,Middle->Middle,M-L
+A3286Q,A,Northern California,5,PUBLIC,1,6,8,709,Q,1,1,09/03/2018,09/08/2018,163,158,Middle,Middle,Middle->Middle,M-L
+A3288N,A,Other,10,PUBLIC,1,6,8,691,N,1,1,09/08/2018,08/28/2018,156,167,Middle,Middle,Middle->Middle,M-L
+A3397L,A,Other,11,PUBLIC,1,6,8,723,L,0,2,05/21/2018,09/08/2018,350,240,Middle,Middle,Middle->Middle,M-L
+A3563L,A,Other,6,PUBLIC,1,7,12,899,L,0,1,10/01/2018,09/13/2018,195,213,High,High,High->High,L
+A3569P,A,Pacific Northwest,6,PUBLIC,1,6,7,610,P,0,2,06/05/2018,09/24/2018,306,195,Middle,Middle,Middle->Middle,M-L
+A3598P,A,Other,5,PUBLIC,1,7,8,744,P,0,1,08/30/2018,09/12/2018,223,210,Middle,Middle,Middle->Middle,M-L
+A3722N,A,Other,5,PUBLIC,1,K,8,649,N,0,1,09/24/2018,09/21/2018,252,255,Middle,Middle,Middle->Middle,M-L
+A3732Q,A,Other,5,PUBLIC,1,6,8,552,Q,0,1,09/25/2018,09/21/2018,249,253,Middle,Middle,Middle->Middle,S-M
+A374M,A,Other,9,PUBLIC,1,6,8,1170,M,0,2,09/02/2018,09/28/2018,244,218,Middle,Middle,Middle->Middle,L
+A3826P,A,Other,5,PUBLIC,1,7,8,933,P,1,1,08/26/2018,08/08/2018,246,264,Middle,Middle,Middle->Middle,L
+A3852Q,A,Other,6,PUBLIC,1,7,8,859,Q,0,1,10/05/2018,09/26/2018,179,188,Middle,Middle,Middle->Middle,L
+A3854N,A,Other,7,PUBLIC,1,9,12,596,N,0,1,05/26/2018,05/14/2018,289,301,Undefined,Undefined,Undefined->Undefined,M-L
+A402O,A,Other,11,PUBLIC,1,6,8,829,O,0,1,05/17/2018,05/15/2018,295,297,Middle,Middle,Middle->Middle,M-L
+A4072L,A,Other,10,PUBLIC,1,6,8,694,L,1,2,05/25/2018,09/23/2018,339,218,Middle,Middle,Middle->Middle,M-L
+A4134M,A,Other,5,PUBLIC,1,5,8,536,M,1,2,05/19/2018,09/13/2018,357,240,Middle,Middle,Middle->Middle,S-M
+A4155P,A,Other,6,PUBLIC,1,9,12,1944,P,1,1,11/10/2018,11/20/2018,224,214,High,High,High->High,L
+A4157P,A,Other,5,PUBLIC,1,6,8,869,P,1,2,09/16/2018,12/14/2018,274,185,Middle,Middle,Middle->Middle,L
+A4180M,A,Other,5,PUBLIC,1,5,8,588,M,0,2,05/22/2018,09/01/2018,350,248,Middle,Middle,Middle->Middle,S-M
+A420L,A,Other,11,PUBLIC,1,5,8,308,L,0,1,09/05/2018,09/21/2018,281,265,Middle,Middle,Middle->Middle,S
+A4250O,A,Other,9,PUBLIC,1,7,8,581,O,0,1,08/30/2018,09/09/2018,211,201,Middle,Middle,Middle->Middle,M-L
+A4582Q,A,Southern California,5,PUBLIC,1,6,8,994,Q,0,1,09/25/2018,09/23/2018,258,260,Middle,Middle,Middle->Middle,L
+A459Q,A,Other,5,PUBLIC,1,6,9,1025,Q,0,2,09/25/2018,09/22/2018,167,170,High,High,High->High,L
+A4668M,A,Other,10,PUBLIC,1,7,8,329,M,0,1,08/28/2018,08/20/2018,286,294,Middle,Middle,Middle->Middle,S
+A4676M,A,Other,4,PUBLIC,1,3,6,235,M,0,1,10/06/2018,09/22/2018,141,155,Middle,Middle,Middle->Middle,S
+A4714O,A,Other,9,PUBLIC,1,6,8,674,O,0,1,09/12/2018,09/21/2018,275,266,Middle,Middle,Middle->Middle,M-L
+A4722Q,A,Other,5,PUBLIC,1,6,8,655,Q,1,2,09/06/2018,09/11/2018,163,158,Undefined,Undefined,Undefined->Undefined,M-L
+A4821N,A,Other,6,PUBLIC,1,PK,8,545,N,0,1,10/31/2018,11/07/2018,215,208,Middle,Middle,Middle->Middle,S-M
+A4857Q,A,Northern California,5,PUBLIC,1,6,8,967,Q,0,1,09/14/2018,09/22/2018,256,248,Middle,Middle,Middle->Middle,L
+A485Q,A,Pacific Northwest,5,PUBLIC,1,6,8,1027,Q,1,2,08/29/2018,09/26/2018,294,266,Middle,Middle,Middle->Middle,L
+A4876Q,A,Other,5,PUBLIC,1,6,8,695,Q,1,2,09/07/2018,09/07/2018,256,256,Undefined,Undefined,Undefined->Undefined,M-L
+A4937M,A,Other,9,PUBLIC,0,9,12,380,M,1,0,,,,,Undefined,Undefined,Undefined->Undefined,S-M
+A5013N,A,Other,9,PUBLIC,1,K,12,621,N,1,1,06/02/2018,05/21/2018,373,385,Middle,High,Middle->High,M-L
+A511Q,A,Dallas,5,PUBLIC,1,6,8,946,Q,1,1,08/30/2018,09/16/2018,273,256,Middle,Middle,Middle->Middle,L
+A528P,A,Pacific Northwest,5,PUBLIC,1,6,8,615,P,0,2,05/31/2018,09/19/2018,297,186,Middle,Middle,Middle->Middle,M-L
+A616N,A,Northern California,5,PUBLIC,1,7,8,501,N,0,1,09/08/2018,09/06/2018,277,279,Middle,Middle,Middle->Middle,S-M
+A621Q,A,Northern California,5,PUBLIC,1,6,8,701,Q,1,1,09/27/2018,10/05/2018,259,251,Middle,Middle,Middle->Middle,M-L
+A644P,A,Other,5,PUBLIC,1,7,8,359,P,1,2,05/29/2018,09/10/2018,359,255,Undefined,Undefined,Undefined->Undefined,S-M
+A660Q,A,Other,5,PUBLIC,1,6,8,1003,Q,1,1,09/03/2018,09/12/2018,196,187,Middle,Middle,Middle->Middle,L
+A715Q,A,Other,11,PUBLIC,0,6,8,592,Q,1,0,,,,,Middle,Middle,Middle->Middle,M-L
+A766O,A,Other,8,PUBLIC,1,9,12,1403,O,1,1,11/17/2018,11/18/2018,124,123,Undefined,Undefined,Undefined->Undefined,L
+A839O,A,Other,11,PUBLIC,1,7,8,333,O,1,1,09/12/2018,09/16/2018,263,259,Middle,Middle,Middle->Middle,S-M
+A86O,A,Other,10,PUBLIC,1,6,8,578,O,0,2,09/14/2018,11/06/2018,275,222,Middle,Undefined,Middle->Undefined,M-L
+A932N,A,Other,11,PUBLIC,1,7,8,329,N,1,1,10/21/2018,10/19/2018,237,239,Middle,Middle,Middle->Middle,S-M
+A978O,A,Other,9,PUBLIC,1,PK,8,602,O,1,1,09/10/2018,09/12/2018,256,254,Middle,Middle,Middle->Middle,M-L
+B1023L,B,Northern California,5,PUBLIC,1,6,8,737,L,1,1,08/30/2018,08/28/2018,168,170,Middle,Middle,Middle->Middle,M-L
+B1066Q,B,Northern California,4,PUBLIC,1,K,6,855,Q,1,1,08/30/2018,08/15/2018,259,274,Elementary,Elementary,Elementary->Elementary,L
+B106M,B,Other,5,PUBLIC,1,6,8,488,M,0,1,09/14/2018,09/16/2018,198,196,Middle,Middle,Middle->Middle,S-M
+B1074I,B,Other,11,PUBLIC,1,6,8,343,I,1,1,09/13/2018,09/29/2018,261,245,Middle,Middle,Middle->Middle,S-M
+B1084P,B,Southern California,4,PUBLIC,0,K,5,689,P,1,0,,,,,Elementary,Elementary,Elementary->Elementary,M-L
+B1099N,B,Other,4,PUBLIC,1,PK,5,712,N,0,1,09/08/2018,09/04/2018,276,280,Elementary,Elementary,Elementary->Elementary,M-L
+B1109M,B,Houston,10,PUBLIC,1,6,8,733,M,0,1,09/19/2018,09/19/2018,254,254,Middle,Middle,Middle->Middle,M-L
+B110L,B,Other,9,PUBLIC,1,K,8,775,L,1,1,08/28/2018,09/15/2018,282,264,Middle,Middle,Middle->Middle,M-L
+B1151Q,B,Southern California,5,PUBLIC,1,6,8,747,Q,0,1,10/14/2018,10/06/2018,187,195,Middle,Middle,Middle->Middle,M-L
+B1179J,B,Southern California,5,PUBLIC,1,6,8,1306,J,0,2,10/09/2018,10/10/2018,249,248,Middle,Middle,Middle->Middle,L
+B1207H,B,Other,9,PUBLIC,1,4,7,450,H,0,2,03/17/2018,09/04/2018,457,286,Middle,Middle,Middle->Middle,S-M
+B1210E,B,Southern California,10,PUBLIC,1,K,8,1120,E,1,2,04/07/2018,09/18/2018,428,264,Middle,Middle,Middle->Middle,L
+B121P,B,Southern California,5,PUBLIC,1,6,8,854,P,0,1,09/13/2018,09/30/2018,211,194,Middle,Middle,Middle->Middle,L
+B124M,B,Dallas,10,PUBLIC,1,7,8,232,M,0,1,09/17/2018,09/15/2018,262,264,Middle,Middle,Middle->Middle,S
+B1261L,B,Other,10,PUBLIC,1,PK,12,586,L,0,1,09/24/2018,09/21/2018,267,270,Middle,Middle,Middle->Middle,S-M
+B1270N,B,Other,10,PUBLIC,1,6,8,411,N,0,2,05/21/2018,09/18/2018,389,269,Middle,Middle,Middle->Middle,S-M
+B1295Q,B,Northern California,6,PUBLIC,1,6,8,1312,Q,1,1,09/26/2018,09/25/2018,200,201,Middle,Middle,Middle->Middle,L
+B1313O,B,Other,5,PUBLIC,1,6,8,781,O,1,2,08/28/2018,09/13/2018,215,199,Middle,Middle,Middle->Middle,L
+B1335L,B,Dallas,10,PUBLIC,1,PK,12,668,L,0,1,08/31/2018,09/09/2018,279,270,Middle,Middle,Middle->Middle,M-L
+B1360N,B,Southern California,5,PUBLIC,1,6,8,1090,N,1,2,05/17/2018,10/17/2018,322,169,Middle,Middle,Middle->Middle,L
+B1375O,B,Other,5,PUBLIC,1,K,8,819,O,0,1,11/03/2018,11/06/2018,159,156,Middle,Middle,Middle->Middle,M-L
+B137P,B,Other,9,PUBLIC,1,K,8,771,P,0,1,10/05/2018,09/25/2018,161,171,Middle,Middle,Middle->Middle,M-L
+B142J,B,Other,5,PUBLIC,1,6,8,1308,J,1,1,09/27/2018,09/25/2018,209,211,Middle,Middle,Middle->Middle,L
+B1460L,B,Other,10,PUBLIC,1,6,8,380,L,0,1,10/06/2018,09/26/2018,253,263,Middle,Middle,Middle->Middle,S-M
+B1470P,B,Northern California,5,PUBLIC,1,7,8,1313,P,1,1,09/30/2018,09/23/2018,238,245,Undefined,Undefined,Undefined->Undefined,L
+B1501P,B,Northern California,5,PUBLIC,1,6,8,687,P,1,1,09/28/2018,09/23/2018,262,267,Middle,Middle,Middle->Middle,M-L
+B1527L,B,Other,10,PUBLIC,0,6,8,618,L,0,0,,,,,Middle,Middle,Middle->Middle,M-L
+B1560M,B,Other,5,PUBLIC,1,7,8,609,M,1,1,09/26/2018,09/22/2018,195,199,Middle,Middle,Middle->Middle,M-L
+B1583H,B,Other,10,PUBLIC,1,7,12,649,H,0,2,05/13/2018,09/10/2018,385,265,Middle,Middle,Middle->Middle,M-L
+B1589M,B,Houston,4,PUBLIC,1,5,6,689,M,1,2,09/28/2018,10/10/2018,251,239,Elementary,Middle,Elementary->Middle,M-L
+B1598M,B,Other,11,PUBLIC,1,7,8,546,M,1,1,09/04/2018,09/05/2018,285,284,Middle,Middle,Middle->Middle,S-M
+B1608J,B,Houston,9,PUBLIC,1,6,8,208,J,0,2,04/16/2018,09/16/2018,410,257,Middle,High,Middle->High,S
+B1614L,B,Pacific Northwest,5,PUBLIC,1,7,9,774,L,1,1,09/24/2018,10/05/2018,192,181,High,High,High->High,L
+B1620M,B,Other,11,PUBLIC,0,6,8,1154,M,0,0,,,,,Middle,Middle,Middle->Middle,L
+B1627K,B,Other,10,PUBLIC,1,6,8,230,K,0,2,04/04/2018,09/05/2018,422,268,Middle,Middle,Middle->Middle,S
+B1636M,B,Dallas,10,PUBLIC,1,6,8,876,M,0,1,10/15/2018,11/03/2018,234,215,Middle,Middle,Middle->Middle,L
+B1642L,B,Houston,10,PUBLIC,1,6,8,1196,L,1,1,08/27/2018,09/05/2018,193,184,Middle,Middle,Middle->Middle,L
+B1652L,B,Southern California,8,PUBLIC,0,9,9,731,L,1,0,,,,,High,High,High->High,M-L
+B1657L,B,Pacific Northwest,5,PUBLIC,1,6,8,740,L,1,1,09/09/2018,09/21/2018,285,273,Middle,Middle,Middle->Middle,M-L
+B1666G,B,Pacific Northwest,5,PUBLIC,1,6,8,875,G,1,1,09/28/2018,10/03/2018,185,180,Middle,Middle,Middle->Middle,L
+B1671H,B,Other,1,PUBLIC,1,K,12,233,H,0,1,08/31/2018,08/24/2018,268,275,Middle,Middle,Middle->Middle,S
+B1672I,B,Dallas,10,PUBLIC,1,7,8,928,I,1,1,10/05/2018,09/20/2018,244,259,Middle,Middle,Middle->Middle,L
+B1691J,B,Other,9,PUBLIC,1,6,8,734,J,0,1,09/06/2018,09/12/2018,181,175,Middle,Middle,Middle->Middle,M-L
+B1704L,B,Other,10,PUBLIC,0,7,8,329,L,0,0,,,,,Middle,Middle,Middle->Middle,S-M
+B1713P,B,Northern California,5,PUBLIC,1,7,8,1154,P,0,2,09/17/2018,10/17/2018,271,241,Middle,High,Middle->High,L
+B1734K,B,Houston,10,PUBLIC,1,6,8,204,K,0,1,10/23/2018,10/30/2018,226,219,Middle,Middle,Middle->Middle,S
+B1742M,B,Houston,10,PUBLIC,1,6,8,726,M,0,1,09/18/2018,09/21/2018,257,254,Middle,Middle,Middle->Middle,M-L
+B1757C,B,Pacific Northwest,9,PUBLIC,1,6,8,747,C,0,1,09/28/2018,10/03/2018,267,262,Middle,Middle,Middle->Middle,M-L
+B1769O,B,Northern California,4,PUBLIC,1,K,5,497,O,0,1,09/03/2018,09/08/2018,228,223,Middle,Middle,Middle->Middle,S-M
+B1782L,B,Other,10,PUBLIC,1,6,8,651,L,1,2,04/30/2018,10/22/2018,405,230,Middle,Middle,Middle->Middle,M-L
+B178L,B,Pacific Northwest,5,PUBLIC,1,7,9,684,L,1,1,09/07/2018,09/20/2018,201,188,Middle,Middle,Middle->Middle,M-L
+B1797K,B,Other,11,PUBLIC,1,6,8,908,K,1,1,09/26/2018,09/13/2018,190,203,Middle,Middle,Middle->Middle,L
+B1833M,B,Dallas,10,PUBLIC,1,6,8,1100,M,0,2,05/18/2018,09/13/2018,392,274,Middle,Middle,Middle->Middle,L
+B1834J,B,Other,10,PUBLIC,1,6,12,252,J,1,2,05/21/2018,10/02/2018,377,243,Middle,High,Middle->High,S
+B1860O,B,Pacific Northwest,5,PUBLIC,1,6,8,757,O,1,1,10/16/2018,10/05/2018,248,259,Undefined,Undefined,Undefined->Undefined,M-L
+B1881J,B,Other,4,PUBLIC,1,K,6,684,J,0,2,04/13/2018,09/04/2018,411,267,Elementary,Elementary,Elementary->Elementary,M-L
+B1882F,B,Other,11,PUBLIC,1,7,12,114,F,0,1,09/23/2018,10/02/2018,174,165,High,High,High->High,S
+B1912O,B,Pacific Northwest,5,PUBLIC,1,6,8,666,O,1,1,09/19/2018,09/24/2018,273,268,Middle,Middle,Middle->Middle,M-L
+B1954J,B,Dallas,11,PUBLIC,1,6,8,443,J,1,1,10/07/2018,09/26/2018,155,166,Middle,Middle,Middle->Middle,S-M
+B1958K,B,Other,11,PUBLIC,1,7,8,614,K,0,1,09/02/2018,09/03/2018,274,273,Middle,Middle,Middle->Middle,M-L
+B1977L,B,Houston,11,PUBLIC,1,6,8,1114,L,1,1,09/21/2018,09/24/2018,255,252,Middle,Middle,Middle->Middle,L
+B1981M,B,Northern California,4,PUBLIC,1,K,8,454,M,1,1,09/18/2018,09/14/2018,267,271,Middle,Middle,Middle->Middle,S-M
+B1991O,B,Northern California,5,PUBLIC,1,6,8,466,O,0,1,10/02/2018,10/02/2018,260,260,Undefined,Undefined,Undefined->Undefined,S-M
+B2032L,B,Houston,10,PUBLIC,1,6,8,1021,L,0,1,09/27/2018,09/15/2018,256,268,Middle,Middle,Middle->Middle,L
+B2075I,B,Other,10,PUBLIC,1,5,8,570,I,1,1,10/26/2018,10/25/2018,226,227,Middle,Middle,Middle->Middle,S-M
+B2123Z,B,Other,5,PUBLIC,1,K,12,467,Z,0,1,08/23/2018,08/28/2018,282,277,Middle,High,Middle->High,S-M
+B2156O,B,Northern California,5,PUBLIC,1,6,8,883,O,1,2,09/03/2018,09/22/2018,284,265,Middle,Middle,Middle->Middle,L
+B2229M,B,Other,5,PUBLIC,1,7,8,401,M,0,2,05/05/2018,10/01/2018,311,162,Middle,Middle,Middle->Middle,S-M
+B2230O,B,Southern California,7,PUBLIC,1,9,12,641,O,1,2,02/27/2018,09/05/2018,389,199,High,High,High->High,M-L
+B2260G,B,Dallas,11,PUBLIC,0,7,8,365,G,1,0,,,,,Middle,Middle,Middle->Middle,S-M
+B2263I,B,Other,6,PUBLIC,1,6,8,1197,I,1,1,09/19/2018,09/18/2018,259,260,Middle,Middle,Middle->Middle,L
+B2271J,B,Other,11,PUBLIC,1,5,8,318,J,0,1,09/17/2018,09/01/2018,176,192,Middle,Middle,Middle->Middle,S
+B2272H,B,Other,9,PUBLIC,1,PK,8,512,H,0,1,09/28/2018,10/07/2018,245,236,Middle,Middle,Middle->Middle,S-M
+B2273L,B,Pacific Northwest,5,PUBLIC,1,PK,8,341,L,0,1,09/19/2018,09/21/2018,267,265,Middle,Middle,Middle->Middle,S
+B2276Q,B,Northern California,6,PUBLIC,1,K,8,654,Q,1,1,09/07/2018,08/22/2018,266,282,Middle,Middle,Middle->Middle,M-L
+B2300P,B,Other,10,PUBLIC,1,6,8,781,P,1,1,09/25/2018,09/22/2018,223,226,Middle,Middle,Middle->Middle,M-L
+B2322Q,B,Southern California,4,PUBLIC,1,K,5,621,Q,1,1,09/25/2018,09/30/2018,272,267,Elementary,Elementary,Elementary->Elementary,M-L
+B2357K,B,Other,11,PUBLIC,0,6,8,651,K,0,0,,,,,Middle,Middle,Middle->Middle,M-L
+B2366L,B,Houston,10,PUBLIC,0,6,8,841,L,0,0,,,,,Undefined,Undefined,Undefined->Undefined,L
+B2374H,B,Other,11,PUBLIC,1,6,8,873,H,1,1,11/17/2018,10/29/2018,180,199,Middle,Middle,Middle->Middle,L
+B2399L,B,Pacific Northwest,6,PUBLIC,1,6,7,549,L,1,2,05/21/2018,09/24/2018,320,194,Middle,Middle,Middle->Middle,S-M
+B2401K,B,Northern California,11,PUBLIC,1,5,8,217,K,1,2,04/27/2018,08/28/2018,413,290,Elementary,Middle,Elementary->Middle,S
+B2405M,B,Houston,10,PUBLIC,1,6,8,367,M,1,1,09/01/2018,09/05/2018,185,181,Middle,Middle,Middle->Middle,S-M
+B2422Z,B,Dallas,7,PUBLIC,1,6,8,248,Z,0,2,04/30/2018,09/07/2018,413,283,Middle,Middle,Middle->Middle,S
+B2432P,B,Other,5,PUBLIC,1,K,8,530,P,1,2,04/16/2018,09/24/2018,418,257,Middle,Middle,Middle->Middle,S-M
+B2448L,B,Houston,10,PUBLIC,1,7,8,660,L,1,1,09/22/2018,09/21/2018,260,261,Middle,Middle,Middle->Middle,M-L
+B2449M,B,Dallas,4,PUBLIC,1,PK,5,538,M,0,1,09/14/2018,09/05/2018,265,274,Elementary,Middle,Elementary->Middle,M-L
+B2452J,B,Other,5,PUBLIC,1,K,12,1295,J,1,2,05/15/2018,09/30/2018,378,240,Middle,Middle,Middle->Middle,L
+B2453J,B,Other,9,PUBLIC,1,6,8,517,J,0,2,04/26/2018,09/10/2018,385,248,Middle,Middle,Middle->Middle,S-M
+B2470K,B,Other,11,PUBLIC,1,6,8,277,K,0,2,03/11/2018,09/17/2018,446,256,Middle,Middle,Middle->Middle,S
+B2472P,B,Southern California,5,PUBLIC,1,6,8,848,P,0,1,09/23/2018,09/23/2018,208,208,Middle,Middle,Middle->Middle,L
+B2481M,B,Pacific Northwest,5,PUBLIC,1,7,8,558,M,1,2,09/27/2018,11/07/2018,192,151,Middle,Middle,Middle->Middle,M-L
+B2497M,B,Other,11,PUBLIC,1,6,8,1084,M,1,1,09/20/2018,09/09/2018,226,237,Middle,Middle,Middle->Middle,L
+B2503O,B,Southern California,4,PUBLIC,1,PK,6,614,O,1,1,03/25/2018,03/15/2018,376,386,Elementary,Middle,Elementary->Middle,M-L
+B2505Q,B,Northern California,10,PUBLIC,1,6,8,1286,Q,1,1,10/13/2018,10/11/2018,247,249,Middle,Middle,Middle->Middle,L
+B2528J,B,Other,9,PUBLIC,1,5,8,358,J,1,1,09/12/2018,09/12/2018,177,177,Middle,Middle,Middle->Middle,S
+B2544D,B,Other,9,PUBLIC,1,K,12,2236,D,1,2,09/22/2018,10/04/2018,275,263,Middle,High,Middle->High,L
+B2559O,B,Other,5,PUBLIC,1,6,8,537,O,0,2,09/09/2018,10/07/2018,262,234,Middle,Middle,Middle->Middle,M-L
+B2568L,B,Other,9,PUBLIC,1,6,8,889,L,1,1,09/11/2018,08/28/2018,230,244,Middle,Middle,Middle->Middle,L
+B2587O,B,Other,5,PUBLIC,1,7,8,752,O,0,2,03/21/2018,09/19/2018,448,266,Middle,Middle,Middle->Middle,M-L
+B2632P,B,Southern California,5,PUBLIC,1,7,8,1165,P,1,2,06/12/2018,09/10/2018,368,278,Middle,Middle,Middle->Middle,L
+B2648Q,B,Southern California,5,PUBLIC,1,7,8,1513,Q,1,2,10/24/2018,10/23/2018,169,170,Middle,Middle,Middle->Middle,L
+B2673N,B,Northern California,5,PUBLIC,1,4,8,546,N,0,1,08/21/2018,08/11/2018,292,302,Middle,Middle,Middle->Middle,S-M
+B2674E,B,Other,11,PUBLIC,1,6,8,311,E,1,1,09/30/2018,09/18/2018,201,213,Middle,Middle,Middle->Middle,S
+B2705G,B,Other,11,PUBLIC,1,7,8,313,G,1,1,09/29/2018,09/20/2018,246,255,Middle,Middle,Middle->Middle,S
+B2716A,B,Dallas,9,PUBLIC,1,6,8,551,A,0,2,04/08/2018,05/18/2018,420,380,Middle,Middle,Middle->Middle,S-M
+B2732K,B,Other,10,PUBLIC,1,6,8,334,K,1,2,05/06/2018,09/05/2018,345,223,Middle,Middle,Middle->Middle,S-M
+B2737K,B,Other,10,PUBLIC,1,1,8,431,K,0,1,10/08/2018,09/30/2018,235,243,Middle,Middle,Middle->Middle,S-M
+B2743N,B,Other,4,PUBLIC,1,K,6,536,N,0,2,04/13/2018,09/26/2018,393,227,Elementary,Middle,Elementary->Middle,M-L
+B2763N,B,Southern California,4,PUBLIC,0,K,5,494,N,0,0,,,,,Elementary,Elementary,Elementary->Elementary,S-M
+B2768A,B,Other,9,PUBLIC,1,9,12,1180,A,0,1,10/07/2018,10/19/2018,162,150,High,High,High->High,L
+B2783F,B,Other,9,PUBLIC,0,6,8,442,F,1,0,,,,,Middle,Middle,Middle->Middle,S-M
+B2786L,B,Northern California,5,PUBLIC,0,4,8,487,L,1,0,,,,,Middle,Middle,Middle->Middle,S-M
+B2825J,B,Northern California,5,PUBLIC,1,PK,8,701,J,0,2,05/26/2018,09/05/2018,371,269,Middle,Middle,Middle->Middle,M-L
+B2847L,B,Dallas,8,PUBLIC,1,9,12,1503,L,1,1,08/25/2018,08/24/2018,262,263,High,High,High->High,L
+B2913L,B,Pacific Northwest,5,PUBLIC,1,7,9,743,L,1,1,09/12/2018,09/15/2018,204,201,Middle,Middle,Middle->Middle,M-L
+B2924O,B,Northern California,5,PUBLIC,1,K,8,863,O,1,1,09/01/2018,09/06/2018,284,279,Middle,Middle,Middle->Middle,L
+B2936I,B,Other,9,PUBLIC,0,7,8,532,I,0,0,,,,,Middle,Middle,Middle->Middle,S-M
+B3021M,B,Other,10,PUBLIC,1,7,8,631,M,1,1,09/30/2018,09/26/2018,241,245,Middle,Middle,Middle->Middle,M-L
+B3026L,B,Dallas,10,PUBLIC,1,6,8,823,L,0,1,10/27/2018,10/31/2018,218,214,Middle,Middle,Middle->Middle,L
+B3034N,B,Southern California,5,PUBLIC,1,6,8,1033,N,1,1,09/20/2018,09/15/2018,169,174,Middle,Middle,Middle->Middle,L
+B3040L,B,Other,4,PUBLIC,1,K,6,282,L,1,1,09/07/2018,09/14/2018,200,193,High,High,High->High,S
+B3047O,B,Other,11,PUBLIC,0,6,8,596,O,0,0,,,,,Middle,Middle,Middle->Middle,M-L
+B3064Q,B,Southern California,4,PUBLIC,0,K,6,750,Q,0,0,,,,,Elementary,Elementary,Elementary->Elementary,M-L
+B3068P,B,Northern California,5,PUBLIC,1,6,8,1113,P,0,1,10/08/2018,10/04/2018,168,172,Middle,Middle,Middle->Middle,L
+B307L,B,Other,11,PUBLIC,1,6,8,262,L,0,1,10/12/2018,10/03/2018,244,253,Middle,Middle,Middle->Middle,S
+B3102F,B,Other,7,PUBLIC,1,6,8,334,F,1,1,11/03/2018,10/17/2018,227,244,Middle,Middle,Middle->Middle,S-M
+B3103J,B,Other,8,PUBLIC,1,9,12,942,J,0,1,10/25/2018,11/04/2018,215,205,High,High,High->High,L
+B3131H,B,Other,9,PUBLIC,1,7,9,1109,H,0,1,09/02/2018,09/21/2018,203,184,Middle,Middle,Middle->Middle,L
+B3150P,B,Northern California,5,PUBLIC,1,7,8,813,P,0,1,08/29/2018,09/06/2018,234,226,Middle,Middle,Middle->Middle,M-L
+B3153J,B,Other,5,PUBLIC,1,6,8,580,J,1,1,09/08/2018,09/11/2018,277,274,Middle,Middle,Middle->Middle,M-L
+B3164N,B,Other,4,PUBLIC,1,K,6,577,N,0,2,04/20/2018,10/01/2018,382,218,Elementary,Middle,Elementary->Middle,M-L
+B3174O,B,Other,4,PUBLIC,1,PK,5,684,O,1,2,05/01/2018,09/10/2018,335,203,Elementary,Elementary,Elementary->Elementary,M-L
+B318J,B,Other,9,PUBLIC,1,K,12,291,J,1,1,05/09/2017,05/08/2017,750,751,High,High,High->High,S
+B3201O,B,Other,10,PUBLIC,1,6,8,1716,O,0,2,04/28/2018,08/31/2018,314,189,Middle,Middle,Middle->Middle,L
+B321P,B,Southern California,5,PUBLIC,1,6,8,1369,P,0,1,09/19/2018,09/25/2018,221,215,Middle,Middle,Middle->Middle,L
+B3236O,B,Other,10,PUBLIC,1,K,8,778,O,1,1,09/09/2018,09/12/2018,250,247,Elementary,Elementary,Elementary->Elementary,M-L
+B3241F,B,Other,9,PUBLIC,1,5,8,323,F,0,1,09/08/2018,09/10/2018,192,190,Elementary,High,Elementary->High,S
+B3245O,B,Pacific Northwest,5,PUBLIC,1,7,8,651,O,1,1,09/28/2018,09/13/2018,188,203,Middle,Middle,Middle->Middle,M-L
+B3253M,B,Other,9,PUBLIC,1,6,8,1440,M,1,2,01/27/2019,01/21/2019,121,127,Middle,Middle,Middle->Middle,L
+B327G,B,Other,5,PUBLIC,1,7,8,161,G,1,2,04/15/2018,09/15/2018,410,257,Middle,Middle,Middle->Middle,S
+B3291N,B,Southern California,6,PUBLIC,1,9,12,978,N,1,1,09/21/2018,09/10/2018,259,270,High,High,High->High,L
+B3293Q,B,Southern California,4,PUBLIC,1,K,6,474,Q,0,1,10/05/2018,10/20/2018,172,157,Elementary,Elementary,Elementary->Elementary,S-M
+B3313L,B,Other,11,PUBLIC,0,5,8,514,L,0,0,,,,,Middle,High,Middle->High,S-M
+B3321L,B,Other,5,PUBLIC,1,6,8,716,L,0,1,10/09/2018,10/01/2018,223,231,Middle,Middle,Middle->Middle,M-L
+B3333J,B,Pacific Northwest,7,PUBLIC,1,6,8,454,J,0,1,09/20/2018,09/19/2018,160,161,Middle,Middle,Middle->Middle,S-M
+B3342J,B,Other,10,PUBLIC,1,7,8,564,J,1,1,08/25/2018,09/01/2018,195,188,Middle,Middle,Middle->Middle,S-M
+B3346P,B,Other,10,PUBLIC,1,K,8,936,P,1,1,09/06/2018,09/22/2018,190,174,Middle,Middle,Middle->Middle,L
+B3364L,B,Houston,10,PUBLIC,1,6,8,897,L,0,2,05/14/2018,11/03/2018,378,205,Middle,Middle,Middle->Middle,L
+B3388H,B,Pacific Northwest,5,PUBLIC,1,6,8,676,H,1,2,11/04/2018,06/04/2019,224,12,Middle,High,Middle->High,M-L
+B339M,B,Pacific Northwest,6,PUBLIC,1,7,8,614,M,1,1,09/10/2018,09/29/2018,185,166,Middle,Undefined,Middle->Undefined,M-L
+B3400L,B,Houston,4,PUBLIC,1,6,6,556,L,1,1,09/28/2018,09/21/2018,253,260,Middle,Middle,Middle->Middle,S-M
+B3403Q,B,Southern California,5,PUBLIC,1,7,8,1151,Q,0,1,09/06/2018,09/22/2018,200,184,Middle,Middle,Middle->Middle,L
+B3417P,B,Houston,5,PUBLIC,1,6,8,1095,P,1,1,09/27/2018,10/07/2018,253,243,Middle,Middle,Middle->Middle,L
+B3420N,B,Southern California,5,PUBLIC,1,6,8,1000,N,0,2,09/15/2018,11/28/2018,181,107,Middle,Middle,Middle->Middle,L
+B3425I,B,Pacific Northwest,5,PUBLIC,1,6,8,633,I,0,1,09/22/2018,09/14/2018,191,199,Middle,Middle,Middle->Middle,M-L
+B3457O,B,Other,11,PUBLIC,0,6,8,891,O,0,0,,,,,Middle,Middle,Middle->Middle,L
+B345L,B,Dallas,10,PUBLIC,1,6,12,362,L,0,1,04/01/2018,04/02/2018,425,424,Middle,Middle,Middle->Middle,S-M
+B3474M,B,Other,1,PUBLIC,1,K,8,211,M,1,2,04/22/2018,09/07/2018,411,273,Middle,Middle,Middle->Middle,S
+B3521I,B,Other,10,PUBLIC,1,7,8,604,I,1,1,09/22/2018,09/17/2018,249,254,Middle,Middle,Middle->Middle,M-L
+B3539L,B,Other,4,PUBLIC,1,K,4,598,L,0,1,08/22/2018,08/26/2018,246,242,Elementary,Middle,Elementary->Middle,M-L
+B3550L,B,Other,9,PUBLIC,1,6,8,679,L,0,1,10/12/2018,10/07/2018,247,252,Middle,Middle,Middle->Middle,M-L
+B3562L,B,Other,11,PUBLIC,1,7,8,972,L,0,1,08/27/2018,08/21/2018,268,274,Middle,Middle,Middle->Middle,L
+B3594O,B,Southern California,4,PUBLIC,1,PK,6,368,O,0,1,04/29/2018,04/18/2018,345,356,Elementary,Middle,Elementary->Middle,S-M
+B3597H,B,Other,5,PUBLIC,1,7,9,535,H,1,1,09/10/2018,09/18/2018,272,264,Middle,High,Middle->High,M-L
+B363L,B,Southern California,5,PUBLIC,0,K,8,552,L,0,0,,,,,Middle,Middle,Middle->Middle,S-M
+B3663Q,B,Southern California,6,PUBLIC,1,K,6,588,Q,0,1,09/27/2018,09/19/2018,206,214,Middle,Middle,Middle->Middle,S-M
+B3702H,B,Other,10,PUBLIC,1,7,8,601,H,1,2,04/24/2018,09/11/2018,396,256,Middle,Middle,Middle->Middle,M-L
+B3716M,B,Other,3,PUBLIC,1,6,8,429,M,1,1,10/13/2018,10/05/2018,164,172,Middle,Middle,Middle->Middle,S-M
+B3773H,B,Other,10,PUBLIC,1,PK,8,477,H,1,1,09/03/2018,09/08/2018,276,271,Middle,High,Middle->High,S-M
+B3796O,B,Southern California,5,PUBLIC,0,7,8,1181,O,1,0,,,,,Middle,Middle,Middle->Middle,L
+B3823H,B,Other,10,PUBLIC,1,6,8,636,H,0,1,09/11/2018,09/05/2018,256,262,Middle,Middle,Middle->Middle,M-L
+B3827L,B,Other,9,PUBLIC,0,6,8,853,L,1,0,,,,,Middle,Middle,Middle->Middle,L
+B3849M,B,Pacific Northwest,5,PUBLIC,1,6,8,962,M,0,2,03/26/2018,09/16/2018,439,265,Middle,Middle,Middle->Middle,L
+B3859L,B,Northern California,11,PUBLIC,1,6,8,70,L,1,1,08/30/2018,09/04/2018,270,265,Middle,Middle,Middle->Middle,S
+B385O,B,Northern California,5,PUBLIC,1,5,12,392,O,0,1,09/12/2018,09/27/2018,226,211,Middle,Middle,Middle->Middle,S-M
+B3872L,B,Dallas,10,PUBLIC,1,6,8,1154,L,1,1,10/14/2018,10/06/2018,199,207,Middle,Middle,Middle->Middle,L
+B3874E,B,Other,11,PUBLIC,1,6,8,335,E,0,1,10/01/2018,09/23/2018,200,208,Middle,Middle,Middle->Middle,S
+B3883I,B,Houston,9,PUBLIC,1,6,8,210,I,0,1,09/17/2018,09/13/2018,270,274,Middle,Middle,Middle->Middle,S
+B3896O,B,Other,4,PUBLIC,1,K,5,652,O,1,2,05/15/2018,09/15/2018,378,255,Elementary,Elementary,Elementary->Elementary,M-L
+B3906K,B,Pacific Northwest,5,PUBLIC,1,7,8,419,K,0,1,09/25/2018,10/07/2018,190,178,Middle,Middle,Middle->Middle,S-M
+B3950O,B,Other,10,PUBLIC,1,6,10,611,O,0,1,09/28/2018,09/21/2018,233,240,Middle,Middle,Middle->Middle,M-L
+B3953E,B,Pacific Northwest,5,PUBLIC,1,6,8,646,E,0,1,10/07/2018,10/08/2018,245,244,Middle,Middle,Middle->Middle,M-L
+B3954O,B,Northern California,5,PUBLIC,1,6,8,740,O,1,2,05/22/2018,09/21/2018,320,198,Middle,Middle,Middle->Middle,M-L
+B3957H,B,Southern California,5,PUBLIC,1,6,8,977,H,0,1,08/28/2018,08/29/2018,209,208,Middle,Middle,Middle->Middle,L
+B3968O,B,Other,4,PUBLIC,1,K,5,610,O,1,2,08/22/2018,09/08/2018,281,264,Middle,High,Middle->High,M-L
+B3969N,B,Houston,11,PUBLIC,1,7,8,528,N,0,1,09/26/2018,09/24/2018,257,259,Middle,Middle,Middle->Middle,S-M
+B398J,B,Other,10,PUBLIC,1,5,8,337,J,0,1,09/03/2018,09/11/2018,268,260,Middle,Middle,Middle->Middle,S
+B39P,B,Other,10,PUBLIC,1,6,8,194,P,1,2,09/06/2018,05/24/2019,271,11,Middle,Middle,Middle->Middle,S
+B4009O,B,Other,11,PUBLIC,1,K,8,911,O,0,1,09/03/2018,09/22/2018,267,248,Middle,Middle,Middle->Middle,L
+B4038I,B,Other,6,PUBLIC,1,6,8,954,I,1,1,09/28/2018,09/27/2018,251,252,Middle,Middle,Middle->Middle,L
+B4088M,B,Pacific Northwest,5,PUBLIC,1,6,8,954,M,1,1,10/08/2018,09/29/2018,255,264,Middle,High,Middle->High,L
+B4106P,B,Southern California,4,PUBLIC,1,K,6,509,P,0,2,09/04/2018,09/15/2018,259,248,Middle,Middle,Middle->Middle,S-M
+B4112E,B,Pacific Northwest,5,PUBLIC,1,6,8,630,E,0,1,09/22/2018,10/05/2018,263,250,Middle,Middle,Middle->Middle,M-L
+B4141M,B,Other,5,PUBLIC,1,7,8,906,M,1,2,09/04/2018,09/20/2018,278,262,Middle,Middle,Middle->Middle,L
+B4179Q,B,Southern California,4,PUBLIC,0,PK,5,343,Q,0,0,,,,,Elementary,Elementary,Elementary->Elementary,S
+B4205Q,B,Southern California,4,PUBLIC,0,K,5,606,Q,1,0,,,,,Elementary,Elementary,Elementary->Elementary,M-L
+B4229E,B,Other,11,PUBLIC,1,6,8,186,E,1,1,08/24/2018,09/08/2018,279,264,Middle,Middle,Middle->Middle,S
+B4232O,B,Other,9,PUBLIC,1,K,8,939,O,1,1,09/05/2018,09/07/2018,266,264,Middle,Middle,Middle->Middle,L
+B4260L,B,Other,10,PUBLIC,1,6,12,412,L,0,2,09/02/2018,09/25/2018,237,214,Middle,High,Middle->High,S-M
+B4274I,B,Other,10,PUBLIC,1,5,8,892,I,1,1,09/01/2018,09/18/2018,270,253,Middle,Middle,Middle->Middle,L
+B4291L,B,Other,11,PUBLIC,1,6,8,244,L,1,1,08/30/2018,08/15/2018,195,210,Middle,Middle,Middle->Middle,S
+B4327K,B,Other,8,PUBLIC,1,9,12,879,K,1,1,08/21/2018,09/02/2018,213,201,High,High,High->High,L
+B4340D,B,Other,11,PUBLIC,1,PK,8,322,D,1,2,03/28/2018,08/30/2018,415,260,Middle,Middle,Middle->Middle,S-M
+B4365Q,B,Northern California,6,PUBLIC,1,6,8,1025,Q,0,1,09/22/2018,10/06/2018,208,194,Middle,Middle,Middle->Middle,L
+B436Q,B,Northern California,5,PUBLIC,1,7,8,847,Q,0,1,08/21/2018,08/28/2018,220,213,Middle,Middle,Middle->Middle,L
+B4381K,B,Pacific Northwest,5,PUBLIC,1,6,8,677,K,1,1,10/27/2018,10/31/2018,239,235,Middle,Middle,Middle->Middle,M-L
+B4397P,B,Northern California,5,PUBLIC,1,6,8,912,P,0,1,09/15/2018,09/19/2018,215,211,Middle,Middle,Middle->Middle,L
+B4425O,B,Northern California,5,PUBLIC,1,6,8,1186,O,1,1,08/21/2018,08/20/2018,227,228,Middle,Middle,Middle->Middle,L
+B4446P,B,Southern California,4,PUBLIC,1,K,6,846,P,0,1,09/30/2018,09/28/2018,253,255,Elementary,Elementary,Elementary->Elementary,L
+B448J,B,Other,5,PUBLIC,1,6,8,439,J,1,1,09/27/2018,09/28/2018,256,255,Middle,Middle,Middle->Middle,S-M
+B4503K,B,Other,9,PUBLIC,0,6,8,637,K,1,0,,,,,Middle,Middle,Middle->Middle,M-L
+B4526L,B,Other,10,PUBLIC,1,6,8,241,L,0,1,10/03/2018,10/05/2018,237,235,Middle,Middle,Middle->Middle,S
+B4531Q,B,Other,5,PUBLIC,1,6,8,995,Q,1,2,04/11/2018,09/13/2018,342,187,Middle,Middle,Middle->Middle,L
+B4535Q,B,Northern California,5,PUBLIC,1,6,8,1306,Q,1,1,09/14/2018,09/13/2018,208,209,Middle,Middle,Middle->Middle,L
+B4560I,B,Northern California,5,PUBLIC,1,6,8,529,I,0,1,08/17/2018,08/10/2018,295,302,Middle,Middle,Middle->Middle,S-M
+B4565Q,B,Southern California,4,PUBLIC,0,K,5,275,Q,1,0,,,,,Elementary,Elementary,Elementary->Elementary,S
+B4572L,B,Other,10,PUBLIC,1,K,8,682,L,1,1,09/12/2018,09/05/2018,264,271,Middle,Middle,Middle->Middle,M-L
+B4581J,B,Other,11,PUBLIC,1,6,8,301,J,1,1,09/18/2018,09/21/2018,263,260,Middle,Middle,Middle->Middle,S
+B4583N,B,Other,9,PUBLIC,1,6,8,1034,N,0,2,04/06/2018,09/19/2018,405,239,Middle,Middle,Middle->Middle,L
+B4594Q,B,Other,5,PUBLIC,1,6,8,752,Q,0,2,03/15/2018,09/21/2018,404,214,Middle,Middle,Middle->Middle,M-L
+B4604H,B,Pacific Northwest,5,PUBLIC,1,6,8,729,H,1,1,11/01/2018,10/21/2018,237,248,Middle,Middle,Middle->Middle,M-L
+B4605M,B,Other,5,PUBLIC,1,7,8,383,M,1,2,04/15/2018,09/28/2018,334,168,Middle,Middle,Middle->Middle,S-M
+B4615M,B,Other,5,PUBLIC,1,6,8,463,M,0,1,09/27/2018,09/13/2018,185,199,Middle,Middle,Middle->Middle,S-M
+B4627L,B,Other,11,PUBLIC,1,6,8,218,L,1,1,08/28/2018,08/24/2018,202,206,Middle,Middle,Middle->Middle,S
+B4666J,B,Houston,10,PUBLIC,1,6,8,555,J,0,2,09/13/2018,10/22/2018,268,229,Middle,Middle,Middle->Middle,S-M
+B4667Z,B,Dallas,5,PUBLIC,1,K,12,296,Z,1,1,09/10/2018,09/10/2018,270,270,Middle,High,Middle->High,S
+B4670P,B,Other,10,PUBLIC,1,K,8,790,P,1,1,10/02/2018,10/04/2018,172,170,Middle,Middle,Middle->Middle,M-L
+B4671Q,B,Pacific Northwest,5,PUBLIC,0,6,8,533,Q,1,0,,,,,Middle,Middle,Middle->Middle,S-M
+B4708J,B,Pacific Northwest,5,PUBLIC,1,6,8,68,J,1,2,05/17/2018,09/07/2018,390,277,Middle,Middle,Middle->Middle,S
+B4713P,B,Southern California,5,PUBLIC,1,7,12,1143,P,0,1,09/10/2018,09/27/2018,206,189,Middle,High,Middle->High,L
+B4733E,B,Pacific Northwest,5,PUBLIC,1,6,8,669,E,1,1,10/23/2018,11/03/2018,241,230,Elementary,High,Elementary->High,M-L
+B4738I,B,Other,10,PUBLIC,1,7,12,472,I,1,2,05/18/2018,09/12/2018,381,264,Middle,High,Middle->High,S-M
+B4742O,B,Other,11,PUBLIC,1,6,8,1125,O,0,1,10/02/2018,10/04/2018,250,248,Middle,Middle,Middle->Middle,L
+B477M,B,Other,9,PUBLIC,0,6,8,1209,M,1,0,,,,,Middle,Middle,Middle->Middle,L
+B4807O,B,Other,5,PUBLIC,1,6,8,618,O,0,1,09/13/2018,09/15/2018,257,255,Middle,Middle,Middle->Middle,M-L
+B4824O,B,Southern California,6,PUBLIC,1,6,8,514,O,0,2,05/26/2018,10/01/2018,334,206,Middle,Middle,Middle->Middle,S-M
+B4840K,B,Other,9,PUBLIC,1,PK,12,495,K,1,1,10/07/2018,10/07/2018,236,236,Middle,Middle,Middle->Middle,S-M
+B4867O,B,Other,5,PUBLIC,1,6,8,568,O,1,1,09/22/2018,09/15/2018,229,236,Middle,Middle,Middle->Middle,M-L
+B4873K,B,Southern California,5,PUBLIC,1,6,8,940,K,0,2,05/09/2018,09/12/2018,328,202,Middle,Middle,Middle->Middle,L
+B4875F,B,Other,8,PUBLIC,0,9,12,568,F,0,0,,,,,Undefined,Undefined,Undefined->Undefined,S-M
+B4924P,B,Other,11,PUBLIC,1,6,8,517,P,0,2,05/22/2018,08/14/2018,344,260,Middle,Middle,Middle->Middle,S-M
+B4983L,B,Houston,10,PUBLIC,1,5,8,852,L,0,1,09/13/2018,09/15/2018,262,260,Middle,Middle,Middle->Middle,M-L
+B4991Z,B,Houston,5,PUBLIC,1,7,8,857,Z,0,2,04/22/2018,09/07/2018,411,273,Middle,Middle,Middle->Middle,L
+B536M,B,Other,10,PUBLIC,0,6,8,1135,M,1,0,,,,,Middle,Middle,Middle->Middle,L
+B553N,B,Other,10,PUBLIC,1,6,8,482,N,1,1,10/10/2018,10/02/2018,244,252,Middle,Middle,Middle->Middle,S-M
+B570I,B,Houston,9,PUBLIC,1,9,12,271,I,1,2,05/08/2018,10/19/2018,405,241,High,High,High->High,S
+B61L,B,Southern California,9,PUBLIC,0,9,9,784,L,1,0,,,,,High,High,High->High,M-L
+B632O,B,Southern California,5,PUBLIC,0,7,8,1408,O,1,0,,,,,Middle,Middle,Middle->Middle,L
+B645N,B,Other,5,PUBLIC,1,7,12,290,N,0,1,09/11/2018,09/03/2018,272,280,Middle,Middle,Middle->Middle,S
+B691Q,B,Southern California,6,PUBLIC,1,7,8,1030,Q,0,2,05/13/2018,06/21/2018,318,279,Middle,High,Middle->High,L
+B694J,B,Northern California,5,PUBLIC,1,6,8,878,J,1,1,09/23/2018,09/05/2018,201,219,Middle,Middle,Middle->Middle,L
+B708N,B,Pacific Northwest,5,PUBLIC,1,7,8,815,N,1,1,09/29/2018,09/22/2018,249,256,Middle,Middle,Middle->Middle,L
+B747G,B,Other,11,PUBLIC,1,6,8,695,G,0,1,10/20/2018,10/08/2018,226,238,Middle,Middle,Middle->Middle,M-L
+B755N,B,Dallas,4,PUBLIC,1,PK,6,622,N,1,1,10/26/2018,10/21/2018,228,233,Elementary,Middle,Elementary->Middle,M-L
+B768I,B,Other,10,PUBLIC,1,6,8,201,I,0,2,03/30/2018,09/11/2018,421,256,Middle,Middle,Middle->Middle,S
+B796J,B,Other,8,PUBLIC,1,9,12,883,J,0,1,10/25/2018,10/30/2018,209,204,High,High,High->High,L
+B804M,B,Southern California,5,PUBLIC,1,7,8,1103,M,1,1,09/05/2018,09/01/2018,210,214,Middle,Middle,Middle->Middle,L
+B840P,B,Houston,10,PUBLIC,1,6,8,529,P,1,1,09/09/2018,09/23/2018,184,170,Middle,Middle,Middle->Middle,S-M
+B842I,B,Other,11,PUBLIC,1,5,8,867,I,0,2,05/14/2018,09/06/2018,367,252,Middle,Middle,Middle->Middle,M-L
+B845N,B,Southern California,6,PUBLIC,1,9,12,968,N,1,1,09/09/2018,09/16/2018,264,257,High,High,High->High,L
+B860O,B,Other,6,PUBLIC,1,6,8,919,O,0,2,04/24/2018,10/07/2018,419,253,Middle,Middle,Middle->Middle,L
+B905G,B,Other,8,PUBLIC,0,9,12,759,G,0,0,,,,,High,High,High->High,M-L
+B993P,B,Southern California,5,PUBLIC,1,7,12,3404,P,1,1,09/20/2018,09/17/2018,239,242,Middle,Middle,Middle->Middle,L
+B995I,B,Other,11,PUBLIC,1,4,8,525,I,0,1,09/17/2018,09/14/2018,249,252,Middle,Middle,Middle->Middle,S-M
+B9Z,B,Dallas,11,PUBLIC,1,6,8,185,Z,1,1,09/06/2018,08/30/2018,277,284,Middle,Middle,Middle->Middle,S
+C1085G,C,Pacific Northwest,10,PUBLIC,0,7,12,98,G,1,0,,,,,High,High,High->High,S
+C1121G,C,Southern California,9,PUBLIC,1,5,8,905,G,1,1,10/01/2018,09/18/2018,187,200,Middle,Middle,Middle->Middle,L
+C1165E,C,Other,7,PUBLIC,1,6,8,482,E,0,1,08/31/2018,09/10/2018,292,282,Middle,Middle,Middle->Middle,S-M
+C1195C,C,Pacific Northwest,10,PUBLIC,1,6,8,629,C,0,1,10/29/2018,10/26/2018,225,228,Middle,Middle,Middle->Middle,M-L
+C1262F,C,Other,7,PUBLIC,1,9,12,800,F,0,1,10/15/2018,10/12/2018,229,232,High,High,High->High,L
+C1264E,C,Pacific Northwest,5,PUBLIC,1,6,8,371,E,0,2,03/01/2018,10/09/2018,384,162,Middle,Middle,Middle->Middle,S-M
+C1267F,C,Other,8,PUBLIC,1,9,12,447,F,0,2,05/08/2018,10/28/2018,316,143,High,High,High->High,S-M
+C1315C,C,Dallas,11,PUBLIC,1,6,8,287,C,1,2,10/21/2018,12/07/2018,225,178,Middle,Middle,Middle->Middle,S
+C1333O,C,Houston,5,PUBLIC,1,6,8,1441,O,1,2,06/01/2018,09/21/2018,374,262,Middle,Middle,Middle->Middle,L
+C1355H,C,Dallas,4,PUBLIC,1,K,6,832,H,1,2,10/19/2018,12/06/2018,240,192,Middle,Middle,Middle->Middle,M-L
+C1403F,C,Southern California,7,PUBLIC,1,6,8,2222,F,0,2,05/14/2018,09/18/2018,401,274,Middle,Middle,Middle->Middle,L
+C1430C,C,Other,1,PUBLIC,1,6,8,623,C,1,1,05/08/2018,05/02/2018,352,358,Middle,Middle,Middle->Middle,M-L
+C1484B,C,Other,11,PUBLIC,1,6,8,663,B,0,2,10/04/2018,02/01/2019,250,130,Middle,Middle,Middle->Middle,M-L
+C1490L,C,Southern California,4,PUBLIC,1,K,5,587,L,0,1,10/02/2018,10/08/2018,249,243,Elementary,Elementary,Elementary->Elementary,M-L
+C1554F,C,Other,9,PUBLIC,1,6,8,749,F,0,1,09/04/2018,09/07/2018,198,195,Middle,Middle,Middle->Middle,M-L
+C15I,C,Other,9,PUBLIC,1,6,8,799,I,0,1,11/18/2018,11/15/2018,209,212,Undefined,Undefined,Undefined->Undefined,M-L
+C161I,C,Pacific Northwest,5,PUBLIC,1,6,8,708,I,0,2,09/08/2018,09/10/2018,187,185,Middle,High,Middle->High,M-L
+C1629L,C,Other,10,PUBLIC,1,6,8,910,L,1,2,04/25/2018,09/07/2018,333,198,Middle,Middle,Middle->Middle,L
+C162I,C,Other,4,PUBLIC,1,PK,5,431,I,0,2,03/02/2018,08/14/2018,465,300,Elementary,Elementary,Elementary->Elementary,S-M
+C1653Z,C,Other,2,PUBLIC,1,6,8,436,Z,1,1,09/12/2018,09/18/2018,233,227,Middle,Middle,Middle->Middle,S-M
+C1665C,C,Other,1,PUBLIC,1,6,8,652,C,1,1,05/01/2018,05/11/2018,363,353,Middle,Middle,Middle->Middle,M-L
+C1684N,C,Other,5,PUBLIC,1,K,8,913,N,1,1,08/15/2018,08/25/2018,210,200,Middle,Middle,Middle->Middle,L
+C1712F,C,Pacific Northwest,9,PUBLIC,1,6,8,686,F,0,1,09/24/2018,09/22/2018,181,183,Middle,Middle,Middle->Middle,M-L
+C1747B,C,Houston,1,PUBLIC,1,5,8,761,B,1,2,03/19/2018,09/02/2018,428,261,Middle,Middle,Middle->Middle,M-L
+C1765H,C,Dallas,10,PUBLIC,1,6,8,1039,H,0,1,09/16/2018,09/20/2018,265,261,Undefined,Undefined,Undefined->Undefined,L
+C1788B,C,Other,11,PUBLIC,1,6,8,556,B,0,1,08/26/2018,09/02/2018,199,192,Middle,Middle,Middle->Middle,S-M
+C1796I,C,Other,10,PUBLIC,1,6,8,526,I,1,1,09/04/2018,09/09/2018,264,259,Middle,Middle,Middle->Middle,S-M
+C1828G,C,Northern California,11,PUBLIC,1,K,8,315,G,0,1,09/03/2018,08/28/2018,288,294,Middle,Middle,Middle->Middle,S
+C1855H,C,Pacific Northwest,9,PUBLIC,1,6,8,555,H,1,1,09/19/2018,09/10/2018,274,283,Middle,Middle,Middle->Middle,S-M
+C1885I,C,Other,10,PUBLIC,1,5,8,656,I,0,1,08/13/2018,08/04/2018,262,271,Middle,Middle,Middle->Middle,M-L
+C1956I,C,Other,7,PUBLIC,1,10,12,939,I,1,1,10/11/2018,10/14/2018,93,90,High,High,High->High,L
+C1998F,C,Dallas,8,PUBLIC,1,6,8,533,F,0,2,05/11/2018,09/06/2018,388,270,Middle,Middle,Middle->Middle,S-M
+C1N,C,Other,9,PUBLIC,1,6,12,925,N,1,2,05/16/2018,09/01/2018,337,229,Middle,Middle,Middle->Middle,L
+C2001G,C,Other,11,PUBLIC,1,6,12,228,G,0,1,09/11/2018,09/16/2018,239,234,Middle,Middle,Middle->Middle,S
+C2025N,C,Southern California,5,PUBLIC,1,6,8,1487,N,1,1,09/29/2018,09/24/2018,262,267,Middle,Middle,Middle->Middle,L
+C2031F,C,Other,10,PUBLIC,1,6,8,200,F,0,1,09/14/2018,09/12/2018,199,201,Middle,Middle,Middle->Middle,S
+C2036D,C,Other,5,PUBLIC,1,6,8,297,D,1,1,09/19/2018,09/17/2018,266,268,Middle,Middle,Middle->Middle,S
+C2072K,C,Other,3,PUBLIC,1,6,12,541,K,0,1,09/15/2018,09/21/2018,251,245,Middle,Middle,Middle->Middle,S-M
+C2118G,C,Southern California,5,PUBLIC,1,6,8,866,G,0,2,05/04/2018,09/11/2018,407,277,Middle,Middle,Middle->Middle,L
+C2219F,C,Pacific Northwest,9,PUBLIC,1,7,12,269,F,0,1,09/09/2018,09/15/2018,224,218,Middle,Middle,Middle->Middle,S
+C2245F,C,Pacific Northwest,5,PUBLIC,1,6,8,312,F,1,2,05/16/2018,10/14/2018,396,245,Middle,Middle,Middle->Middle,S
+C2254C,C,Dallas,10,PUBLIC,1,6,8,957,C,1,1,09/08/2018,09/02/2018,187,193,Middle,Middle,Middle->Middle,L
+C2281G,C,Other,10,PUBLIC,1,6,8,760,G,1,1,09/08/2018,08/30/2018,221,230,Middle,Middle,Middle->Middle,M-L
+C2411Z,C,Other,8,PUBLIC,1,6,8,307,Z,0,2,05/03/2018,10/02/2018,402,250,Middle,Middle,Middle->Middle,S
+C2418J,C,Dallas,10,PUBLIC,1,6,8,932,J,0,2,09/23/2018,09/28/2018,260,255,Middle,Middle,Middle->Middle,L
+C241L,C,Other,10,PUBLIC,1,K,12,1241,L,1,2,02/23/2018,09/05/2018,456,262,Middle,Middle,Middle->Middle,L
+C2479O,C,Northern California,10,PUBLIC,1,K,8,653,O,0,1,10/21/2018,10/23/2018,238,236,Middle,Middle,Middle->Middle,M-L
+C2564E,C,Other,10,PUBLIC,1,6,8,696,E,0,1,09/05/2018,09/03/2018,196,198,Middle,Middle,Middle->Middle,M-L
+C2571G,C,Other,11,PUBLIC,0,8,9,261,G,1,0,,,,,Middle,Middle,Middle->Middle,S
+C2572F,C,Other,4,PUBLIC,1,K,5,323,F,0,1,09/16/2018,09/15/2018,238,239,Middle,Middle,Middle->Middle,S
+C2627L,C,Other,10,PUBLIC,1,6,8,757,L,0,1,09/02/2018,09/16/2018,189,175,Middle,Middle,Middle->Middle,M-L
+C2646L,C,Other,11,PUBLIC,1,6,8,650,L,1,1,10/10/2019,09/30/2019,-196,-186,Middle,Middle,Middle->Middle,M-L
+C2653G,C,Other,10,PUBLIC,1,6,8,646,G,1,1,10/04/2018,09/18/2018,203,219,Middle,Middle,Middle->Middle,M-L
+C2664M,C,Pacific Northwest,5,PUBLIC,1,6,8,763,M,0,1,10/08/2018,09/23/2018,257,272,Middle,Middle,Middle->Middle,M-L
+C2711F,C,Houston,10,PUBLIC,1,6,8,498,F,0,1,08/30/2018,09/06/2018,268,261,Middle,Middle,Middle->Middle,S-M
+C2721E,C,Other,10,PUBLIC,1,6,8,281,E,1,1,08/23/2018,08/28/2018,279,274,Middle,Middle,Middle->Middle,S
+C2761F,C,Southern California,8,PUBLIC,1,7,12,987,F,1,1,10/07/2018,10/23/2018,248,232,Middle,Middle,Middle->Middle,L
+C2809D,C,Other,10,PUBLIC,1,6,8,474,D,1,1,09/16/2018,09/22/2018,197,191,Middle,Middle,Middle->Middle,S-M
+C282P,C,Other,10,PUBLIC,1,PK,8,623,P,1,1,12/05/2018,12/23/2018,150,132,Undefined,Undefined,Undefined->Undefined,M-L
+C2831L,C,Southern California,5,PUBLIC,1,6,8,1158,L,0,1,09/28/2018,10/08/2018,271,261,Middle,Middle,Middle->Middle,L
+C2864Q,C,Other,9,PUBLIC,0,9,12,387,Q,0,0,,,,,Undefined,Undefined,Undefined->Undefined,S-M
+C2872K,C,Other,1,PUBLIC,1,PK,8,1580,K,1,1,12/14/2018,11/30/2018,164,178,Middle,Middle,Middle->Middle,L
+C2909J,C,Pacific Northwest,9,PUBLIC,1,9,12,1529,J,1,1,04/08/2018,04/11/2018,438,435,High,High,High->High,L
+C2935I,C,Other,10,PUBLIC,1,7,8,626,I,1,1,09/05/2018,09/20/2018,186,171,Middle,Middle,Middle->Middle,M-L
+C2971G,C,Southern California,10,PUBLIC,1,6,8,789,G,1,1,10/06/2018,10/05/2018,221,222,Undefined,Undefined,Undefined->Undefined,M-L
+C2987C,C,Other,5,PUBLIC,1,6,8,553,C,1,1,08/22/2018,08/25/2018,280,277,Undefined,Undefined,Undefined->Undefined,S-M
+C299P,C,Other,9,PUBLIC,1,PK,8,620,P,0,1,01/22/2019,01/30/2019,118,110,Middle,Middle,Middle->Middle,M-L
+C3057L,C,Northern California,5,PUBLIC,1,7,8,892,L,0,1,09/23/2018,09/27/2018,200,196,Middle,Middle,Middle->Middle,L
+C3108D,C,Dallas,10,PUBLIC,1,6,8,830,D,1,1,09/02/2018,09/08/2018,188,182,Middle,Middle,Middle->Middle,M-L
+C3110C,C,Other,1,PUBLIC,0,PK,8,351,C,1,0,,,,,Middle,Middle,Middle->Middle,S-M
+C3132J,C,Northern California,4,PUBLIC,1,K,6,642,J,1,1,10/25/2018,10/24/2018,234,235,Elementary,Elementary,Elementary->Elementary,M-L
+C3148G,C,Pacific Northwest,5,PUBLIC,1,6,8,566,G,1,2,05/04/2018,10/08/2018,411,254,Middle,High,Middle->High,S-M
+C3159O,C,Southern California,9,PUBLIC,1,6,8,1246,O,1,2,09/06/2018,09/15/2018,268,259,Undefined,Undefined,Undefined->Undefined,L
+C3161J,C,Houston,10,PUBLIC,1,6,8,120,J,0,1,09/08/2018,08/24/2018,269,284,Middle,Middle,Middle->Middle,S
+C3240Z,C,Dallas,4,PUBLIC,1,5,6,640,Z,1,1,09/06/2018,08/20/2018,271,288,Middle,Middle,Middle->Middle,M-L
+C3261H,C,Other,1,PUBLIC,1,PK,8,197,H,1,2,03/14/2018,09/30/2018,404,204,Elementary,Middle,Elementary->Middle,S
+C3264E,C,Other,9,PUBLIC,1,6,8,485,E,1,1,09/11/2018,09/14/2018,259,256,Middle,Middle,Middle->Middle,S-M
+C3271C,C,Other,10,PUBLIC,1,5,8,819,C,1,1,09/01/2018,09/06/2018,261,256,Middle,Middle,Middle->Middle,M-L
+C3328L,C,Dallas,10,PUBLIC,1,7,9,504,L,1,1,09/21/2018,09/21/2018,253,253,Middle,Middle,Middle->Middle,S-M
+C3337O,C,Southern California,5,PUBLIC,1,K,8,1272,O,1,1,09/20/2018,10/04/2018,214,200,Middle,Middle,Middle->Middle,L
+C335G,C,Pacific Northwest,4,PUBLIC,1,K,6,326,G,1,1,08/15/2018,08/16/2018,257,256,Elementary,Middle,Elementary->Middle,S
+C337I,C,Other,9,PUBLIC,1,7,8,387,I,1,1,09/09/2018,09/01/2018,219,227,Middle,Middle,Middle->Middle,S-M
+C3439E,C,Dallas,11,PUBLIC,1,6,8,257,E,0,2,06/02/2018,10/09/2018,369,240,Middle,Middle,Middle->Middle,S
+C3446O,C,Dallas,5,PUBLIC,0,5,8,374,O,0,0,,,,,Middle,Middle,Middle->Middle,S-M
+C3453E,C,Other,11,PUBLIC,1,6,8,1065,E,0,1,11/11/2018,11/08/2018,228,231,Undefined,Undefined,Undefined->Undefined,L
+C3466K,C,Dallas,10,PUBLIC,1,7,8,364,K,0,2,05/14/2018,10/09/2018,388,240,Middle,Middle,Middle->Middle,S-M
+C3502E,C,Other,4,PUBLIC,1,4,6,391,E,1,2,08/20/2018,09/05/2018,287,271,Middle,Middle,Middle->Middle,S-M
+C3534L,C,Other,1,PUBLIC,1,6,8,1121,L,0,1,08/30/2018,08/27/2018,261,264,Middle,Middle,Middle->Middle,L
+C3588N,C,Southern California,5,PUBLIC,1,6,8,903,N,1,1,12/09/2018,12/08/2018,187,188,Middle,Middle,Middle->Middle,L
+C358E,C,Other,8,PUBLIC,1,9,12,971,E,1,1,05/07/2018,04/30/2018,344,351,High,High,High->High,L
+C3619F,C,Other,10,PUBLIC,1,6,8,295,F,0,2,05/20/2018,09/25/2018,369,241,Middle,Middle,Middle->Middle,S
+C3672F,C,Dallas,7,PUBLIC,1,7,9,1481,F,0,1,09/14/2018,09/18/2018,269,265,Middle,Middle,Middle->Middle,L
+C3752D,C,Other,10,PUBLIC,1,6,8,478,D,1,2,09/28/2018,09/25/2018,246,249,Middle,Middle,Middle->Middle,S-M
+C3784I,C,Houston,4,PUBLIC,1,PK,5,559,I,0,2,04/27/2018,09/07/2018,318,185,Elementary,Elementary,Elementary->Elementary,M-L
+C3811E,C,Other,11,PUBLIC,1,6,8,363,E,0,1,09/06/2018,09/04/2018,268,270,Middle,Middle,Middle->Middle,S-M
+C3851I,C,Other,10,PUBLIC,1,6,8,518,I,0,1,08/29/2018,08/21/2018,268,276,Middle,Middle,Middle->Middle,S-M
+C3971H,C,Other,1,PUBLIC,1,PK,8,196,H,1,2,03/10/2018,09/20/2018,404,210,Elementary,Middle,Elementary->Middle,S
+C3975J,C,Northern California,3,PUBLIC,0,6,8,341,J,0,0,,,,,Middle,Middle,Middle->Middle,S-M
+C4005C,C,Other,11,PUBLIC,1,K,8,697,C,1,2,04/30/2018,08/17/2018,368,259,Middle,Middle,Middle->Middle,M-L
+C4031L,C,Other,9,PUBLIC,1,6,8,956,L,0,2,09/26/2018,10/06/2018,263,253,Middle,Middle,Middle->Middle,L
+C4040D,C,Northern California,10,PUBLIC,1,K,8,257,D,1,2,05/18/2018,08/29/2018,385,282,Middle,Middle,Middle->Middle,S
+C4047F,C,Other,8,PUBLIC,1,9,12,870,F,0,1,10/15/2018,10/15/2018,230,230,High,High,High->High,L
+C404G,C,Houston,12,PUBLIC,0,6,8,145,G,1,0,,,,,Middle,Middle,Middle->Middle,S
+C4167J,C,Dallas,10,PUBLIC,1,6,8,609,J,1,1,09/23/2018,09/15/2018,251,259,Middle,Middle,Middle->Middle,M-L
+C4194C,C,Other,9,PUBLIC,1,6,8,1031,C,1,2,05/20/2018,09/25/2018,330,202,Middle,Middle,Middle->Middle,L
+C4211J,C,Southern California,4,PUBLIC,0,K,5,670,J,0,0,,,,,Elementary,Elementary,Elementary->Elementary,M-L
+C4315F,C,Other,11,PUBLIC,1,6,8,1076,F,0,1,08/29/2018,09/06/2018,193,185,Middle,Middle,Middle->Middle,L
+C4317C,C,Other,5,PUBLIC,1,6,8,620,C,1,1,09/07/2018,09/02/2018,264,269,Undefined,Undefined,Undefined->Undefined,S-M
+C4437K,C,Dallas,11,PUBLIC,1,7,8,382,K,1,2,05/11/2018,10/18/2018,393,233,Middle,Middle,Middle->Middle,S-M
+C4460I,C,Southern California,4,PUBLIC,0,K,5,673,I,1,0,,,,,Elementary,Elementary,Elementary->Elementary,M-L
+C4468E,C,Other,9,PUBLIC,1,6,8,558,E,1,2,09/25/2018,10/30/2018,242,207,Middle,Middle,Middle->Middle,S-M
+C455E,C,Dallas,7,PUBLIC,1,6,8,312,E,0,1,11/14/2018,11/16/2018,212,210,Middle,Middle,Middle->Middle,S
+C4579M,C,Other,10,PUBLIC,1,6,8,740,M,1,1,08/26/2018,08/21/2018,272,277,Middle,Middle,Middle->Middle,M-L
+C4607P3,C,Other,9,PUBLIC,0,6,7,191,P3,1,0,,,,,Middle,Middle,Middle->Middle,S
+C4636H,C,Northern California,9,PUBLIC,1,PK,8,480,H,0,1,09/16/2018,09/21/2018,277,272,Middle,Middle,Middle->Middle,S-M
+C4732I,C,Other,10,PUBLIC,1,6,8,353,I,0,1,10/16/2018,10/22/2018,208,202,Middle,Middle,Middle->Middle,S-M
+C47L,C,Pacific Northwest,10,PUBLIC,1,7,8,244,L,0,1,09/25/2018,09/30/2018,268,263,High,High,High->High,S
+C4811J,C,Southern California,8,PUBLIC,1,9,12,2856,J,1,1,10/07/2018,10/12/2018,185,180,High,High,High->High,L
+C4817H,C,Other,9,PUBLIC,1,6,8,573,H,0,1,09/17/2018,09/04/2018,260,273,Middle,Middle,Middle->Middle,M-L
+C4868H,C,Northern California,5,CHD,1,K,8,0,H,1,1,09/05/2018,09/09/2018,229,225,Middle,Middle,Middle->Middle,
+C4942Q,C,Southern California,4,PUBLIC,0,K,5,564,Q,1,0,,,,,Elementary,Elementary,Elementary->Elementary,S-M
+C495E,C,Southern California,9,PUBLIC,1,6,9,515,E,0,1,11/01/2018,11/08/2018,213,206,Middle,Middle,Middle->Middle,S-M
+C506I,C,Other,10,PUBLIC,1,7,8,373,I,0,1,09/06/2018,08/25/2018,223,235,Middle,Middle,Middle->Middle,S-M
+C516O,C,Northern California,7,PUBLIC,1,7,8,713,O,1,1,09/03/2018,09/12/2018,284,275,Middle,Middle,Middle->Middle,M-L
+C617O,C,Southern California,7,PUBLIC,1,6,8,1964,O,1,1,09/23/2018,09/29/2018,208,202,Middle,Middle,Middle->Middle,L
+C654L,C,Other,11,PUBLIC,1,6,8,829,L,1,1,11/09/2018,11/20/2018,191,180,Middle,Middle,Middle->Middle,M-L
+C668J,C,Pacific Northwest,9,PUBLIC,1,9,12,1450,J,1,1,04/16/2018,03/30/2018,430,447,High,High,High->High,L
+C725I,C,Other,9,PUBLIC,1,6,8,543,I,0,1,10/18/2018,10/11/2018,201,208,Middle,Middle,Middle->Middle,S-M
+C730M,C,Other,1,PUBLIC,0,6,8,659,M,1,0,,,,,Middle,Middle,Middle->Middle,M-L
+C746J,C,Other,11,PUBLIC,1,6,8,467,J,1,1,09/11/2018,09/01/2018,186,196,Middle,Middle,Middle->Middle,S-M
+C825G,C,Other,11,PUBLIC,1,6,8,729,G,1,1,09/13/2018,09/24/2018,283,272,Middle,Middle,Middle->Middle,M-L
+C869I,C,Other,1,PUBLIC,1,6,8,647,I,1,2,04/17/2018,09/16/2018,339,187,Middle,Middle,Middle->Middle,M-L
+C878D,C,Other,10,PUBLIC,1,K,12,765,D,1,2,02/19/2018,09/19/2018,442,230,Elementary,Middle,Elementary->Middle,M-L
+D1651D,D,Houston,1,PUBLIC,1,6,8,828,D,1,2,09/03/2018,09/26/2018,281,258,Middle,Middle,Middle->Middle,L
+D2703C,D,Other,6,PUBLIC,0,6,8,319,C,1,0,,,,,Middle,Middle,Middle->Middle,S
+D3833F,D,Other,10,PUBLIC,1,6,8,781,F,1,1,09/20/2018,10/02/2018,252,240,Middle,Middle,Middle->Middle,M-L
+D4391B,D,Other,8,PUBLIC,1,9,12,296,B,0,1,09/12/2018,09/14/2018,266,264,High,High,High->High,S
+D4578F,D,Other,10,PUBLIC,1,6,8,732,F,0,1,09/27/2018,09/18/2018,242,251,Middle,Middle,Middle->Middle,M-L
+E1496J,E,Northern California,4,PUBLIC,1,K,6,461,J,0,1,08/12/2018,08/28/2018,263,247,Middle,Middle,Middle->Middle,S-M
+E2478C,E,Other,2,PUBLIC,1,6,8,444,C,0,2,09/30/2018,01/17/2019,265,156,Middle,Middle,Middle->Middle,S-M
+E27M,E,Other,5,PUBLIC,1,6,8,581,M,0,1,10/02/2018,10/03/2018,195,194,Middle,High,Middle->High,S-M
+E2884O,E,Other,9,PUBLIC,1,9,12,963,O,0,2,06/14/2018,11/02/2018,299,158,High,High,High->High,L
+E4473J,E,Northern California,5,PUBLIC,1,6,8,637,J,0,1,09/27/2018,09/16/2018,185,196,Middle,Middle,Middle->Middle,M-L
