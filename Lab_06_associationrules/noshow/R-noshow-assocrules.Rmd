@@ -1,0 +1,144 @@
+---
+title: 'Association Rules: Medical Appointments No-Shows'
+output:
+  html_document:
+    df_print: paged
+---
+
+Upload the required libraries
+
+```{r}
+library('arules')
+library('arulesViz')
+```
+
+Convert numeric fields into categorical ones
+
+```{r}
+ds<-noshow
+ds[["Age"]] <- ordered(cut(ds[["Age"]], c(-5,10,18,30,50,70,105)),
+labels = c("Child", "Young", "Adult", "Middle-Aged", "Senior", "Old"))
+
+ds[["AwaitingTime"]] <- ordered(cut(ds[["AwaitingTime"]], c(-400,-180,-90,-30,-7,-1)),
+labels = c(">6months", "[3,6]months", "[1,3]months", "[1,3]weeks", "1week"))
+```
+
+Analyse some attributes
+
+```{r}
+print(unique(ds$Disability))
+print(unique(ds$Sms_Reminder))
+```
+
+```{r}
+ds$Sms_Reminder[ds$Sms_Reminder == 0] <- "NoSMS"
+ds$Sms_Reminder[ds$Sms_Reminder == 1] <- "1SMS"
+ds$Sms_Reminder[ds$Sms_Reminder == 2] <- "2SMS"
+```
+
+Convert columns to datetime
+
+```{r}
+ds$AppointmentRegistration <- as.POSIXct(ds$AppointmentRegistration, tz = "UTC")
+ds$AppointmentDate <- as.POSIXct(ds$AppointmentDate, tz = "UTC")
+```
+
+Take from the appointment date some potentially useful info
+
+```{r}
+ds['AppDateQuarter'] <- quarters(ds$AppointmentDate)
+```
+
+Remove useless fields
+
+```{r}
+ds[["AppointmentRegistration"]] <- NULL
+ds[["AppointmentDate"]] <- NULL
+```
+
+Convert the dataset from data.frame format into transactions format
+
+```{r}
+Medapp <- as(ds, "transactions")
+dim(Medapp)  #The first value is the n. of transactions, the second the n. of different items
+itemLabels(Medapp)  #List all the distinct items
+```
+
+```{r}
+inspect(Medapp[3])
+```
+
+```{r}
+#Show the relative item frequency
+itemFrequencyPlot(Medapp, topN=20,  cex.names=1)
+```
+
+Run the Apriori Algorithm and display a subset of rules
+
+```{r}
+#Default values are: support=0.1 and confidence=0.8.
+#Notice that, by using a support-threshold of 0.2, we will eliminate from the analysis all items having support below 0.2.
+#'Count' is the n. of transactions containing that items
+rules <- apriori(Medapp,parameter=list(minlen=2,maxlen=5,support=0.0001,confidence=0.3, target="rules"),control = list(verbose=F))
+rules.sortedbylift <- sort(rules, by="lift")
+inspect(rules.sortedbylift[1:20])
+```
+
+Remove redundant rules
+
+```{r}
+#A rule is redundant if a more general rule with the same or a higher confidence exists.
+#A rule is more general if it has the same RHS but one or more items removed from the LHS.
+rules <- (rules[!is.redundant(rules)])
+inspect(rules.sortedbylift[1:20])
+```
+
+Extract subsets of rules of interest (i.e. analyse rules with the consequence "Status=No-Show")
+
+```{r}
+NoShow <- subset(rules,(rhs %in% paste0("Status=No-Show")))
+```
+
+Inspect the best 10 rules according to the lift
+
+```{r}
+NoShow.sorted <- sort(NoShow, by="lift")
+inspect(NoShow.sorted[1:10])
+```
+
+------------------------------------------------------------------------
+
+SCATTER PLOT AND TWO-KEY PLOT \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+```{r}
+plot(NoShow,measure=c("support","confidence"),shading="lift",control=list(main="Scatter Plot"),jitter=0)
+plot(NoShow,shading="order",control=list(main = "Two-Key Plot"),jitter=0)
+```
+
+------------------------------------------------------------------------
+
+GRAPH-BASED VISUALIZATION \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+```{r fig.height=9, fig.width=7}
+plot(NoShow.sorted[1:3],method="graph", engine="htmlwidget", control=list(main = "Top 3 rules for 'NoShow'"))
+```
+
+------------------------------------------------------------------------
+
+PARALLEL-COORDINATES PLOT \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+```{r}
+plot(NoShow.sorted[1:10], method="paracoord",control=list(reorder=TRUE, main = "Top 10 rules for 'NoShow'"))
+```
+
+------------------------------------------------------------------------
+
+DOUBLE-DECKER PLOTS \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+```{r, fig.width=12, fig.height=12}
+inspect(NoShow.sorted[1:1])
+plot(NoShow.sorted[1:1],method="doubledecker",data = Medapp, control=list(main = "Double-Decker Plot"))
+```
+
+```{}
+```
