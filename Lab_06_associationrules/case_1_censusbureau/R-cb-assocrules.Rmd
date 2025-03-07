@@ -1,0 +1,128 @@
+---
+title: 'Association Rules: Census Bureau'
+output:
+  html_document:
+    df_print: paged
+---
+
+Upload the required libraries
+
+```{r}
+library('arules')
+library('arulesViz')
+```
+
+Read the dataset in data.frame format
+
+```{r}
+data("AdultUCI")
+```
+
+Remove useless fields and in any column in the data frame, remove rows with missing values.
+
+```{r}
+AdultUCI[["fnlwgt"]] <- NULL
+AdultUCI[["education-num"]] <- NULL
+AdultUCI<-AdultUCI[complete.cases(AdultUCI), ]
+```
+
+Convert numeric fields into categorical ones
+
+```{r}
+AdultUCI[["age"]] <- ordered(cut(AdultUCI[["age"]], c(15,25,45,65,100)),
+labels = c("Young", "Middle-Aged", "Senior", "Old"))
+AdultUCI[["hours-per-week"]] <- ordered(cut(AdultUCI[["hours-per-week"]],c(0,25,40,60,168)),
+labels = c("Part-time", "Full-time", "Over-time", "Workaholic"))
+
+AdultUCI[["capital-gain"]] <- ordered(cut(AdultUCI[["capital-gain"]],
+c(-Inf,0,median(AdultUCI[["capital-gain"]][AdultUCI[["capital-gain"]]>0]),Inf)),
+labels = c("None", "Low", "High"))
+
+AdultUCI[["capital-loss"]] <- ordered(cut(AdultUCI[["capital-loss"]],
+c(-Inf,0, median(AdultUCI[["capital-loss"]][AdultUCI[["capital-loss"]]>0]),Inf)), 
+labels = c("None", "Low", "High"))
+```
+
+Convert the dataset from data.frame format into transactions format
+
+```{r}
+Adult <- as(AdultUCI, "transactions")
+dim(Adult)  #The first value is the n. of transactions, the second the n. of different items
+itemLabels(Adult)  #List all the distinct items
+```
+
+```{r}
+inspect(Adult[3])
+```
+
+```{r}
+#Show the relative item frequency
+itemFrequencyPlot(Adult, topN=20,  cex.names=1)
+```
+
+Run the Apriori Algorithm and display a subset of rules
+
+```{r}
+#Default values are: support=0.1 and confidence=0.8.
+#Notice that, by using a support-threshold of 0.2, we will eliminate from the analysis all items having support below 0.2.
+#'Count' is the n. of transactions containing that items
+rules <- apriori(Adult,parameter=list(minlen=2,maxlen=5,support=0.001,confidence=0.5, target="rules"),control = list(verbose=F))
+rules.sortedbylift <- sort(rules, by="lift")
+inspect(rules.sortedbylift[1:20])
+```
+
+Remove redundant rules
+
+```{r}
+#A rule is redundant if a more general rule with the same or a higher confidence exists.
+#A rule is more general if it has the same RHS but one or more items removed from the LHS.
+rules <- (rules[!is.redundant(rules)])
+inspect(rules.sortedbylift[1:20])
+```
+
+Extract subsets of rules of interest (i.e. analyse rules with the consequence "income=large")
+
+```{r}
+incomeLarge <- subset(rules,(rhs %in% paste0("income=large")))
+```
+
+Inspect the best 10 rules according to the lift
+
+```{r}
+incomeLarge.sorted <- sort(incomeLarge, by="lift")
+inspect(incomeLarge.sorted[1:10])
+```
+
+------------------------------------------------------------------------
+
+SCATTER PLOT AND TWO-KEY PLOT \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+```{r}
+plot(incomeLarge,measure=c("support","confidence"),shading="lift",control=list(main="Scatter Plot"),jitter=0)
+plot(incomeLarge,shading="order",control=list(main = "Two-Key Plot"),jitter=0)
+```
+
+------------------------------------------------------------------------
+
+GRAPH-BASED VISUALIZATION \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+```{r fig.height=9, fig.width=7}
+plot(incomeLarge.sorted[1:3],method="graph", engine="htmlwidget", control=list(main = "Top 3 rules for 'Large Income'"))
+```
+
+------------------------------------------------------------------------
+
+PARALLEL-COORDINATES PLOT \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+```{r}
+plot(incomeLarge.sorted[1:10], method="paracoord",control=list(reorder=TRUE, main = "Top 10 rules for 'Large Income'"))
+```
+
+------------------------------------------------------------------------
+
+DOUBLE-DECKER PLOTS \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+```{r, fig.width=14, fig.height=14}
+inspect(incomeLarge.sorted[1:1])
+plot(incomeLarge.sorted[1:1],method="doubledecker",data = Adult, control=list(main = "Double-Decker Plot"))
+```
